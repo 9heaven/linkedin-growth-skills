@@ -1,0 +1,21 @@
+{
+  "name": "linkedin-growth-skills",
+  "version": "1.0.0",
+  "description": "Six skills to audit and grow LinkedIn presence for founders, creators, and influencers: personal profile audit, company page audit, content strategy, lead generation, authority growth, and metrics review. Not for job seekers.",
+  "author": {
+    "name": "9HEAVEN"
+  },
+  "homepage": "https://github.com/9heaven/linkedin-growth-skills",
+  "repository": "https://github.com/9heaven/linkedin-growth-skills",
+  "license": "MIT",
+  "keywords": [
+    "linkedin",
+    "marketing",
+    "personal-brand",
+    "lead-generation",
+    "content-strategy",
+    "founders",
+    "creators",
+    "social-selling"
+  ]
+}
