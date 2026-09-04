@@ -1,7 +1,7 @@
 ---
 name: linkedin-lead-generation
 description: "Use when turning LinkedIn attention into booked calls and paying clients: profile-to-offer path, comment and DM plays, outreach sequences, and lead magnets. For founders and creators selling their own services, never for spam or mass automation."
-version: 1.0.0
+version: 1.1.0
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
@@ -52,7 +52,7 @@ If it takes a paragraph, prospects will not repeat it to their network, and DMs
 will stall. Fix this first; it is the most common real blocker.
 
 Then place it where traffic already lands: headline, About CTA, Featured item,
-the pinned post, and the DM auto-reply if creator mode is on.
+the pinned post, and the DM auto-reply if you have one enabled.
 
 ## Step 2 — Inbound plays (do these before outreach)
 
@@ -100,8 +100,19 @@ than sent as-is.
 Only after inbound is running. Rules:
 
 - **Volume cap:** 15–20 personalized connection requests a day, max. Well under
-  the ~100/week weekly invite limit, and low enough to keep the accept rate
-  above 40%. A falling accept rate is the signal to stop.
+  the ~100/week weekly invite limit and the ~400/month ceiling, and low enough to keep
+  the accept rate above 40%. A falling accept rate is the signal to stop.
+- **Total interactions:** LinkedIn counts DMs, invites, profile views, likes,
+  comments, and endorsements together against a soft ceiling near 120/day. Stay well
+  below it.
+- **Warm up a dormant account first.** If the user has been inactive for months,
+  jumping to full volume risks a restriction. Days 1–10: 60 interactions/day, manual
+  only. Days 11–20: up to 80/day, 5–10 invites. Days 21+: normal limits. Full protocol
+  and account-health thresholds in `references/platform-reality.md`.
+- **Target only active people.** Filter to those who posted in the last 30 days.
+  Requests to dormant profiles burn a capped monthly budget for nothing.
+- **Keep messages to 3–4 sentences.** One paragraph. Walls of text do not get read.
+- **Send in their business hours,** Tuesday to Thursday works best. Not weekends.
 - **Targeting:** people who engaged with your posts, people who viewed your
   profile, second-degree connections of happy clients, members of the same
   communities. Not a scraped list.

@@ -83,6 +83,22 @@ Issues and PRs welcome. Keep new skills consistent with the principles above:
 no fabrication, no automation-for-spam, decisive scoring, and concrete
 deliverables instead of general advice.
 
+## Related work
+
+These skills were built after reviewing the LinkedIn skills already published on
+skills.sh. Several are good and solve adjacent problems:
+
+| Skill | What it does better | Why ours is separate |
+|---|---|---|
+| [paramchoudhary/resumeskills — linkedin-profile-optimizer](https://github.com/paramchoudhary/resumeskills/tree/main/skills/linkedin-profile-optimizer) | Job-seeker profile optimization, recruiter search | We deliberately exclude job seekers |
+| [social-media-skills/skills — linkedin-company-pages](https://github.com/social-media-skills/skills/tree/main/skills/linkedin-company-pages) | Deep employee-advocacy program design, publishing-tool integration | Ours is small-business sized, no tool dependency |
+| [schwepps/skills — linkedin-personal-branding](https://github.com/schwepps/skills/tree/main/linkedin-personal-branding) | Industry benchmark tables, SSI reporting, Chrome extension capture | Ours is conversion-first and paste-first |
+| [brianrwagner — linkedin-authority-builder](https://github.com/brianrwagner/ai-marketing-claude-code-skills) | quick/standard/deep mode selection | Ours ties authority to a proof stack and a 90-day arc |
+| [cold-iq/coldiq-s-gtm-skills — linkedin-limits-warmup](https://github.com/cold-iq/coldiq-s-gtm-skills/tree/main/skills/linkedin-limits-warmup) | Account limits and warm-up detail | We absorbed the limits; we do not sell a data vendor |
+
+Platform figures used across these skills are collected and dated in
+[`skills/linkedin-content-strategy/references/platform-reality.md`](skills/linkedin-content-strategy/references/platform-reality.md).
+
 ## License
 
 MIT. See [LICENSE](LICENSE).

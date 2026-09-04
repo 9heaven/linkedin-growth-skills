@@ -1,7 +1,7 @@
 ---
 name: linkedin-company-page-audit
 description: "Use when auditing or rebuilding a LinkedIn company page for a small business, agency, or startup so it earns followers, credibility, and inbound leads. Covers setup, copy, content engine, and the founder-to-page traffic loop."
-version: 1.0.0
+version: 1.1.0
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
@@ -65,6 +65,16 @@ Score 0–5 per row. Weights reflect what actually moves leads.
 
 ## Step 3 — Diagnose the traffic problem first
 
+**Set expectations with the numbers before you give a single tactic.** Company pages
+get roughly 1–2% of feed allocation while personal profiles get ~65%, and page organic
+reach fell 60–66% between 2024 and early 2026. A page post initially reaches only about
+2–5% of its own followers. Identical content posted from a founder's profile reaches
+several times further.
+
+This is not the user's failure and it is not fixable with better page copy. It changes
+what the page is for. Say it plainly, cite the range, and point at
+`references/platform-reality.md`.
+
 Before copy fixes, answer: **where do page visitors come from today?**
 
 Real sources, ranked by what works for small businesses:
@@ -127,9 +137,32 @@ Give a concrete 4-week plan, not "post consistently".
 - **Mix per 10 posts:** 4 proof (case study, before/after, client result),
   3 POV/teaching (opinion, how-to, myth-bust), 2 behind-the-scenes (process,
   team, build logs), 1 offer (direct pitch, launch, hiring).
+- **Never post text-only from a page.** Page posts without media get roughly 0.42x the
+  reach. Always attach an image, document, or video.
+- **Links go in the first comment,** not the post body. A link in the body suppresses
+  reach substantially.
+- **Best-performing page formats:** document carousels (highest saves), short vertical
+  video with burned-in captions, and custom images. Questions and frameworks travel
+  furthest.
 - **Amplification, every single post:** founder reshares with an added comment
   within an hour, team members comment (not just react), and the page comments
   on 5 relevant posts that week as the page.
+
+**Employee advocacy is the page's only real organic lever**, and it is worth stating
+the mechanism rather than the buzzword. Employees carry roughly 10x the connections a
+page has, employee posts see a ~14.6% share rate against ~1.7% for pages, and the
+small fraction of employees who share regularly drive a disproportionate share of
+total engagement. Coordinated engagement inside the first hour is a strong reach
+signal.
+
+Program design that works at small scale:
+- Draft the shareable content and suggested commentary for them, but require each
+  person to personalize it. Identical reshares look coordinated and perform worse.
+- Use "Notify Employees" on page posts. It is free and most pages forget it exists.
+- Founder or CEO content typically outperforms the page by several times. If there is
+  one person to invest in, it is them.
+- At two or three people, "advocacy program" is the wrong frame. Say so, and just make
+  it a standing habit: everyone comments within the hour.
 - **Repurposing:** each founder post that performs becomes a page post 3–5 days
   later with a small rewrite. The page is the archive of the founder's proof.
 

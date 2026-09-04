@@ -1,7 +1,7 @@
 ---
 name: linkedin-authority-growth
 description: "Use when a founder, creator, or influencer wants to build credibility and audience on LinkedIn: positioning, proof assets, network expansion, collaborations, and social proof that compounds. Not for job-seeking or personal-brand fluff."
-version: 1.0.0
+version: 1.1.0
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
@@ -68,6 +68,8 @@ beats hoping for reach.
 - Comment within the first 30 minutes of their post, 2–4 sentences, adding a
   distinct point or an example. Never "Great post!".
 - 10 a day. Expect profile visits and follows within two weeks.
+- Treat a comment as content, not a courtesy. It is the cheapest reach on the
+  platform: it puts your name in front of an audience you did not have to build.
 
 **Collaborations** that compound:
 - Guest on niche podcasts and community AMAs. Small and specific beats large and

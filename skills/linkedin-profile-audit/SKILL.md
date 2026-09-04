@@ -1,7 +1,7 @@
 ---
 name: linkedin-profile-audit
 description: "Use when auditing or rewriting a founder, creator, or influencer LinkedIn profile so visitors convert into followers, leads, and clients. Scores every section against a buyer-journey rubric and rewrites the weak ones."
-version: 1.0.0
+version: 1.1.0
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
@@ -34,8 +34,29 @@ Paste these, each labeled:
 6. Profile photo: describe it in one line
 7. Follower count, connection count, and how many posts in the last 30 days
 8. Custom URL (linkedin.com/in/...) — yes or no
-9. Creator mode / "Talks about" topics, if set
+9. Services section — set up, or empty?
+10. Newsletter — do you run one?
 ```
+
+**Do not ask about "creator mode".** LinkedIn removed the toggle in March 2024 and
+profile hashtags/"Talks about" topics in February 2024. Its features (newsletter,
+Follow button, creator analytics) are on by default for eligible profiles. Asking
+for a setting that no longer exists tells the user you are working from stale
+knowledge. See `references/platform-reality.md`.
+
+## Step 1b — Classify before you score
+
+Record these four in the report header. Every judgement below changes based on them,
+and an audit that skips them applies the wrong benchmarks.
+
+| Field | Options |
+|---|---|
+| **Profile type** | Founder / consultant-freelancer / creator-influencer / operator with a side offer |
+| **Industry** | Determines which engagement benchmarks apply |
+| **Target audience** | Clients / partners / investors / peers-and-followers |
+| **Primary market** | Local, national, or global — affects language and posting windows |
+
+If the answer to profile type is "job seeker", stop. This skill is the wrong tool.
 
 Then ask the two questions that decide every judgement below:
 
@@ -66,8 +87,19 @@ than the total: fix the highest-weight low score first.
 | Activity/posts | 5 | An empty feed makes the whole profile a dead end. |
 | Skills + recommendations | 2 | Social proof and search surface. |
 | Custom URL + contact info | 1 | Cheap, one-time fixes. |
+| Services section | 2 | Free lead surface most founders leave empty. |
 
 Report as a table: section, score, the biggest single leak, the fix.
+
+**Compute the engagement rate, do not just quote raw numbers.**
+
+```
+Engagement rate = (reactions + comments + shares) / impressions x 100
+```
+
+A post with 15 reactions on 1,376 impressions is 1.16%, which is below target — and
+that reads very differently from "15 reactions". For small B2B accounts, 3–5% is
+healthy and 1–2% needs work. Benchmarks in `references/platform-reality.md`.
 
 ## Step 3 — Name the biggest leak
 

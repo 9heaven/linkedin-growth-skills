@@ -1,7 +1,7 @@
 ---
 name: linkedin-metrics-review
 description: "Use when reviewing LinkedIn performance for a founder, creator, or business page: which numbers matter, how to read post and profile analytics, weekly and monthly review rituals, and what to change next. Ties activity to leads, not vanity metrics."
-version: 1.0.0
+version: 1.1.0
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
@@ -45,6 +45,10 @@ not move, the content reached the wrong people. Say that plainly.
 - **Search appearances + the search terms shown** — tells you whether the
   headline matches how buyers describe the problem. Mismatch means rewrite the
   headline.
+- **Social Selling Index (SSI)** — at `linkedin.com/sales/ssi`, free, four components
+  scored out of 25. A directional health check on whether the profile and activity
+  point the right way, never a goal. Nobody was ever paid for an SSI score. If you
+  report it, report the weakest component, not the total.
 - **Follower demographics** (job titles, industries, company sizes) — the audit
   most people skip. If the top titles are not buyers, the content is pointed at
   the wrong crowd, and every other metric is noise.
@@ -58,7 +62,8 @@ and follower growth split by organic vs sponsored.
   demographics per post.
 - Profile analytics: profile page, "Analytics" panel — profile viewers, post
   impressions, search appearances (last 90 days).
-- Creator analytics: audience growth and top posts, if creator mode is on.
+- Creator analytics: audience growth and top posts. Available by default on eligible
+  profiles since the creator-mode toggle was retired in March 2024.
 - Company page: Analytics tab — visitors, followers, content, competitors,
   leads.
 - Export: page analytics export to XLSX for time series. Personal profile has no
@@ -97,13 +102,29 @@ Log the answers. Four weeks of logs beats any dashboard.
 
 ## Benchmarks, used carefully
 
+**Always show the calculation, not the raw count.**
+
+```
+Engagement rate = (reactions + comments + shares) / impressions x 100
+```
+
+15 reactions and 1 comment on 1,376 impressions is 1.16%. "16 interactions" sounds
+fine; 1.16% against a 3% target does not. Report the percentage, the benchmark, and
+the verdict in one row.
+
 Rough ranges for small B2B accounts under ~10K followers. Treat as orientation,
 never as targets:
 
-- Engagement rate (reactions+comments / impressions): 3–5% is healthy.
+- Engagement rate: 3–5% healthy, 1–2% below target. Personal profiles average
+  around 4.7%; company pages sit near 1–2%.
 - Profile views per 1,000 impressions: 5–15 when the hook and identity align.
 - Inbound DMs: 1–5 per week at 3 posts/week with a clear offer.
 - Follower growth: 100–400/month at consistent 3–5 posts/week.
+- Connection acceptance rate: above 30% is healthy, below 15% means stop and fix
+  targeting.
+
+Fuller figures and their sources: `references/platform-reality.md` in
+`linkedin-content-strategy`.
 
 Own numbers over time beat anyone's benchmark. Compare the user to themselves
 last month.

@@ -80,7 +80,9 @@ ordered deliberately.
 
 ## Completeness (weight 1)
 
-Custom URL set, location, contact info, website link, creator mode topics.
+Custom URL set, location, contact info, website link, Services section, and Follow
+set as the primary button where inbound outpaces outbound. Do not score "creator
+mode" or profile hashtags: both were retired in early 2024.
 Binary items, all cheap. Score by fraction completed.
 
 ## Computing the verdict

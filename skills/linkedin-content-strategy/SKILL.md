@@ -1,7 +1,7 @@
 ---
 name: linkedin-content-strategy
 description: "Use when a founder, creator, or influencer needs a LinkedIn content system that grows the right followers and produces inbound leads. Builds pillars, a post calendar, hooks, and formats tied to a buyer journey."
-version: 1.0.0
+version: 1.1.0
 license: MIT
 platforms: [linux, macos, windows]
 metadata:
@@ -64,8 +64,19 @@ Match the plan to the time they actually have.
   content pipeline.
 
 Comments matter as much as posts: 10 substantive comments per day on posts your
-buyers read outperforms an extra post per week for reach and for DMs. Put it in
-the calendar as a task, not an afterthought.
+buyers read outperforms an extra post per week for reach and for DMs. Put it in the
+calendar as a task, not an afterthought.
+
+**Cap at one post per day.** Two posts in a day compete with each other for the same
+distribution window and both underperform.
+
+**The golden hour is part of the cadence, not an extra.** The first 60–90 minutes
+after publishing decide how far a post travels. Dwell time (people actually reading)
+and early comments are the signals that matter; likes barely move distribution. Block
+20 minutes right after posting to reply to every comment. A post published when the
+author cannot engage is a post published at half strength.
+
+Platform facts behind this: `references/platform-reality.md`.
 
 ## Step 4 — Formats
 
@@ -75,14 +86,17 @@ Match format to intent. `references/post-formats.md` has templates for each.
 |---|---|---|
 | Text post (900–1,300 chars) | POV, story, teaching | The default. Fastest to write. |
 | Text + single image | Proof, screenshots, results | Screenshot beats stock photo every time. |
-| Document carousel (PDF) | Frameworks, checklists | High saves, strong for lead magnets. 8–12 slides. |
-| Native video (30–90s) | Personality, face-to-camera trust | Add captions; most watch muted. |
+| Document carousel (PDF) | Frameworks, checklists | Highest save rates on the platform. 8–12 slides. |
+| Native video (30–90s) | Personality, face-to-camera trust | Add captions; most watch muted. Platform is pushing video hard. |
 | Poll | Audience research, cheap reach | Max once every 2 weeks or it looks lazy. |
-| Newsletter | Owned distribution, notifies subscribers | Only with a weekly commitment. |
+| Newsletter | Owned distribution | Sends a notification AND an email to every subscriber, the strongest owned surface on LinkedIn. Only with a weekly commitment. |
 
 Do not put an external link in the post body when reach matters. Put it in the
 first comment, or in a "comment X and I'll send it" mechanic — that also feeds
 the lead-gen skill.
+
+**Never post text-only from a company page** (roughly 0.42x reach without media).
+On a personal profile text-only is fine and often best.
 
 ## Step 5 — Hooks
 
