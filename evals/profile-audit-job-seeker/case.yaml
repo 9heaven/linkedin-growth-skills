@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: profile-audit-job-seeker
+expected_outcome: |
+  The skill recognizes a job seeker, says plainly that it is the wrong tool and a
+  resume or job-search skill fits better, and stops without a scored audit.

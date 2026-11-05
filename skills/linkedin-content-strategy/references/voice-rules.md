@@ -1,14 +1,21 @@
 # Voice Rules
 
 Write like the user talks, not like a brand deck. These rules apply to every
-rewrite produced by the LinkedIn skills.
+headline, About section, post, DM, and plan the LinkedIn skills produce.
 
 ## Never fabricate
 
-No invented clients, numbers, results, credentials, dates, or testimonials. If a
-sentence needs a number the user did not provide, either ask for it or leave a
-visible `[your number]` placeholder. A single caught exaggeration destroys the
-credibility the whole profile is built to create.
+No invented clients, numbers, results, credentials, dates, testimonials, people,
+or handles. If a sentence needs a number the user did not provide, ask for it or
+leave a visible `[your number]` placeholder. One caught exaggeration destroys the
+credibility the whole profile exists to build.
+
+## Examples are shapes, not material
+
+The examples in these skills come from different niches on purpose. Copy their
+structure, never their content: do not carry an example's industry, numbers,
+currency, city, or client type into the user's draft. Every specific in a draft
+must come from the user.
 
 ## Banned phrases
 
@@ -24,21 +31,23 @@ Delete on sight:
 
 ## Punctuation and rhythm
 
-- No em dashes. Use a period, a comma, or a colon.
-- No emoji bullet spam. One or two emoji maximum in a whole post, and only if the
+- No em dashes. Use a period, a comma, a colon, or parentheses. (An en dash in a
+  number range such as 3–5 is fine.)
+- No emoji bullet spam. One or two emoji in a whole post at most, and only if the
   user already writes that way.
-- Vary sentence length. All-short-lines reads as fake drama; all-long reads as a
+- Vary sentence length. All short lines reads as fake drama; all long reads as a
   wall.
 - Mobile is the default surface. Break after 1–3 sentences.
 
 ## Specificity beats adjectives
 
 - "Fast websites" -> "8.4s to 1.9s load time on a 40-product store"
-- "Many happy clients" -> "31 stores since 2022"
-- "Expert in ecommerce" -> "I fix WooCommerce checkouts that lose sales on mobile"
+- "Many happy clients" -> "31 clients since 2022"
+- "Expert in onboarding" -> "I rewrite SaaS onboarding emails that users ignore"
 
-If a claim can be swapped into a competitor's profile without changing meaning,
-it is not saying anything.
+If a claim could be pasted into a competitor's profile without changing its
+meaning, it is not saying anything. (These lines are shapes too: the numbers in a
+real draft come from the user or stay as placeholders.)
 
 ## Match the user's register
 
@@ -47,13 +56,12 @@ Read their pasted text and their existing posts. Mirror:
 - Contractions or not
 - Technical depth
 - Humor, bluntness, warmth
-- Regional phrasing (do not sand off an Indian, British, or Australian voice
-  into neutral American SaaS English)
+- Regional phrasing. Do not sand an Indian, British, Nigerian, or Australian voice
+  down into neutral American SaaS English.
 
-When rewriting, keep at least a few of their own phrases intact. A rewrite the
-user does not recognize as themselves will never get published.
+Keep at least a few of their own phrases intact. A rewrite the user does not
+recognize as their own will never get published.
 
 ## The read-aloud test
 
-If the user would not say the sentence out loud to a prospect over coffee, cut
-it.
+If the user would not say the sentence out loud to a prospect over coffee, cut it.

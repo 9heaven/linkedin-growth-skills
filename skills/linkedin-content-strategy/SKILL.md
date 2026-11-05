@@ -1,158 +1,167 @@
 ---
 name: linkedin-content-strategy
-description: "Use when a founder, creator, or influencer needs a LinkedIn content system that grows the right followers and produces inbound leads. Builds pillars, a post calendar, hooks, and formats tied to a buyer journey."
-version: 1.1.0
+description: "Builds a LinkedIn content system for founders, consultants, creators, and influencers that grows the right followers and produces inbound conversations: content pillars, an honest cadence, formats, hooks, a 4-week calendar, and 3 ready-to-publish posts. Use when someone asks what to post on LinkedIn, how often, for a content plan or calendar, for post ideas, or for help writing hooks or posts. Not for job seekers or corporate employer branding."
 license: MIT
-platforms: [linux, macos, windows]
 metadata:
-  audience: [founders, creators, influencers, consultants, agency-owners]
-  not_for: [job-seekers, corporate-employer-branding]
+  author: "9HEAVEN"
+  version: "1.2.0"
+  audience: "founders, creators, influencers, consultants, agency owners"
+  not_for: "job seekers, corporate employer branding"
 ---
 
 # LinkedIn Content Strategy
 
-Build a repeatable publishing system for someone selling something — a service,
-a product, a body of work, or their own authority. The output is a plan they can
-execute weekly without you, not a pile of inspiration.
+Build a repeatable publishing system for someone selling something: a service, a
+product, a body of work, or their own expertise. The output is a plan they can run
+every week without you, not a pile of inspiration.
 
 **Success is not followers.** It is qualified conversations. A 2,000-follower
-profile where 15 buyers read every post beats 50,000 followers who never buy.
-Say this out loud when the user asks for follower tactics.
+profile where 15 buyers read every post beats 50,000 followers who never buy. Say
+this out loud when the user asks for follower tactics.
 
-## Step 1 — Establish the foundation
+## Pick the depth
+
+- **Quick:** the user wants a few posts or hooks, not a plan. Get Step 1's four
+  answers in one message (or ask for them), write what was asked using
+  `references/post-formats.md`, and offer the full plan in one line.
+- **Full** (default for "build my content strategy"): Steps 1 to 7.
+
+## Step 1: Establish the foundation
 
 Get these four before writing anything. If they are vague, the content will be.
 
-1. **Who** — one primary audience, described by situation not demographic.
-   "Agency owners at 5–15 people who just lost their biggest client" not
+1. **Who:** one primary audience, described by situation, not demographics.
+   "Agency owners with 5–15 people who just lost their biggest client" beats
    "business owners".
-2. **What they buy** — the offer, the price band, the decision cycle.
-3. **What you know that they do not** — the unfair knowledge. This is the
-   entire content supply.
-4. **Proof inventory** — client results, personal numbers, failures,
-   experiments, screenshots. List them. Everything worth posting comes from
-   here.
+2. **What they buy:** the offer, the price band, the decision cycle.
+3. **What you know that they do not:** the unfair knowledge. This is the entire
+   content supply.
+4. **Proof inventory:** client results, personal numbers, failures, experiments,
+   screenshots. List them. Everything worth posting comes from here.
 
-If the user cannot fill the proof inventory, the first month of content is
-about the work in progress: what they are building, testing, and learning.
+If the proof inventory is empty, the first month of content is the work in
+progress: what they are building, testing, and learning.
 
-## Step 2 — Set content pillars
+## Step 2: Set content pillars
 
 Pick 3–4 pillars. Each maps to a stage of the buyer journey.
 
 | Pillar | Job | Share of posts |
 |---|---|---|
-| Authority / POV | Make them think differently. Earns reach and follows. | 30% |
+| Authority / point of view | Make them think differently. Earns reach and follows. | 30% |
 | Proof / results | Make them believe you can do it. Earns trust. | 30% |
 | Teaching / how-to | Make them act. Earns saves and shares. | 25% |
 | Personal / story | Make them like you. Earns replies. | 15% |
 
-The offer post is not a pillar — it is a placement. One in every 8–10 posts, and
-the surrounding proof posts are what make it land.
+The offer post is not a pillar. It is a placement: one in every 8–10 posts, and
+the proof posts around it are what make it land.
 
-Write each pillar as a sentence the user can hold in their head, plus 10 topic
-seeds. `references/pillar-worksheet.md` has the prompts to extract these.
+Write each pillar as one sentence the user can hold in their head, plus 10 topic
+seeds. `references/pillar-worksheet.md` has the extraction questions.
 
-## Step 3 — Set cadence honestly
+## Step 3: Set cadence honestly
 
-Match the plan to the time they actually have.
+Match the plan to the time the user actually has.
 
-- **3 posts/week** — the working minimum for a business account. Compounds
-  slowly, survives a busy month.
-- **5 posts/week** — growth pace. Needs a repurposing system or a writer.
-- **Daily** — only for full-time creators, and it degrades fast without a
-  content pipeline.
+- **3 posts a week:** the working minimum for a business account. Compounds slowly
+  and survives a busy month.
+- **5 posts a week:** growth pace. Needs a repurposing system or a writer.
+- **Daily:** only for full-time creators, and it degrades fast without a pipeline.
 
-Comments matter as much as posts: 10 substantive comments per day on posts your
-buyers read outperforms an extra post per week for reach and for DMs. Put it in the
-calendar as a task, not an afterthought.
+**Cap at one post a day.** Two posts in a day compete for the same audience and
+both underperform.
 
-**Cap at one post per day.** Two posts in a day compete with each other for the same
-distribution window and both underperform.
+**Comments are part of the cadence.** 10 substantive comments a day on posts the
+buyers read often does more for reach and DMs than an extra post a week. Put it in
+the calendar as a task. Comments count toward the daily action ceiling in
+`references/platform-reality.md`, so keep the total sane.
 
-**The golden hour is part of the cadence, not an extra.** The first 60–90 minutes
-after publishing decide how far a post travels. Dwell time (people actually reading)
-and early comments are the signals that matter; likes barely move distribution. Block
-20 minutes right after posting to reply to every comment. A post published when the
-author cannot engage is a post published at half strength.
+**The first hour is part of the cadence, not an extra.** Early comments and the
+author's replies matter most, and LinkedIn ranks on dwell time (people actually
+reading). Block 20 minutes right after posting to reply to every comment. A post
+published when the author cannot engage is a post published at half strength.
 
-Platform facts behind this: `references/platform-reality.md`.
+## Step 4: Formats
 
-## Step 4 — Formats
-
-Match format to intent. `references/post-formats.md` has templates for each.
+Match the format to the job. `references/post-formats.md` has a template for each.
 
 | Format | Best for | Notes |
 |---|---|---|
-| Text post (900–1,300 chars) | POV, story, teaching | The default. Fastest to write. |
-| Text + single image | Proof, screenshots, results | Screenshot beats stock photo every time. |
-| Document carousel (PDF) | Frameworks, checklists | Highest save rates on the platform. 8–12 slides. |
-| Native video (30–90s) | Personality, face-to-camera trust | Add captions; most watch muted. Platform is pushing video hard. |
-| Poll | Audience research, cheap reach | Max once every 2 weeks or it looks lazy. |
-| Newsletter | Owned distribution | Sends a notification AND an email to every subscriber, the strongest owned surface on LinkedIn. Only with a weekly commitment. |
+| Text post (900–1,300 characters) | Point of view, story, teaching | The default on a personal profile. Fastest to write. |
+| Text + single image | Proof, screenshots, results | A real screenshot beats a stock photo every time. |
+| Document carousel (PDF, 8–12 slides) | Frameworks, checklists | Built to be saved. Held reach better than video and polls in 2025 data. |
+| Native video (30–90 seconds) | Personality, face-to-camera trust | Burn in captions; most people watch muted. Use it for trust, not as a reach hack. |
+| Poll | Audience research | At most once every 2 weeks. LinkedIn shows fewer polls from people members don't know, so never use one for reach. |
+| Newsletter | Owned distribution | Subscribers get a notification and an email. Only with a weekly commitment. |
 
-Do not put an external link in the post body when reach matters. Put it in the
-first comment, or in a "comment X and I'll send it" mechanic — that also feeds
-the lead-gen skill.
+**Links:** on a company page, always put the link in the first comment. On a
+personal profile the measured effect of a link is small, but the first comment is
+still the safe default when reach matters.
 
-**Never post text-only from a company page** (roughly 0.42x reach without media).
-On a personal profile text-only is fine and often best.
+**Never post text-only from a company page.** On a personal profile, text-only is
+fine and often best.
 
-## Step 5 — Hooks
+Facts behind this section, with sources and grades: `references/platform-reality.md`.
+
+## Step 5: Hooks
 
 The first two lines decide everything; the rest sits behind "see more".
 
-Hook patterns that work without sounding like a growth-hacker:
+Hook shapes that work without sounding like a growth hacker. The niches vary on
+purpose: copy the shape, never the content.
 
-- **Specific number:** "We cut a client's page load from 8.4s to 1.9s. Here's
-  what actually did it."
-- **Contrarian claim:** "Most WooCommerce speed advice makes stores slower."
-- **Confession:** "I lost a ₹4L retainer last month. My fault, and here's the
+- **Specific number:** "We cut a client's checkout load time from 8.4s to 1.9s.
+  Here's what actually did it."
+- **Contrarian claim:** "Most SaaS onboarding emails are written for the product
+  team, not the user."
+- **Confession:** "I lost my biggest retainer last month. My fault, and here's the
   mistake."
-- **Direct address:** "If your store gets traffic but no sales, check this
-  before you touch the ads."
-- **Before/after:** "Two years ago I was X. Today Y. The three decisions in
+- **Direct address:** "If your clinic gets calls but no bookings, check this before
+  you touch the ads."
+- **Before and after:** "Two years ago I was X. Today Y. The three decisions in
   between:"
 
-Banned openings: "Excited to announce", "Thrilled to share", "In today's fast
-paced world", "Let that sink in", and anything followed by a wall of one-line
-paragraphs used as fake drama.
+Banned openings: "Excited to announce", "Thrilled to share", "In today's
+fast-paced world", "Let that sink in", and walls of one-line paragraphs used as
+fake drama.
 
-Voice rules in `references/voice-rules.md`. Write how the user talks. If they
-sent you samples, mirror their sentence length and vocabulary.
+Voice rules: `references/voice-rules.md`. Write how the user talks. If they sent
+samples, mirror their sentence length and vocabulary.
 
-## Step 6 — Build the calendar
+## Step 6: Build the calendar
 
-Produce a 4-week calendar as a table: date, pillar, format, topic, hook draft,
-CTA. Front-load the first week with proof posts so a new visitor to the profile
-sees evidence immediately.
+Produce a 4-week calendar as a table: date, pillar, format, topic, hook draft, CTA.
+Front-load week 1 with proof posts, so a new visitor sees evidence immediately.
 
 Add the weekly operating rhythm:
 
-- **Write:** one batching session, 90 minutes, drafts the week.
-- **Post:** their audience's active hours. For B2B India, 8–11am IST weekdays.
-  Test, do not treat any time as gospel.
-- **Engage:** 20 minutes right after posting, replying to every comment. Then
-  10 comments/day on other people's posts.
-- **Review:** Friday, 15 minutes, note what got saves and DMs — hand off to
+- **Write:** one 90-minute batching session drafts the week.
+- **Post:** start with weekday mornings in the audience's time zone (for B2B in
+  India, 8–11am IST is a common starting point). Test two windows for 4 weeks each
+  and keep the winner. No posting time is gospel.
+- **Engage:** 20 minutes right after posting, replying to every comment. Then 10
+  comments a day on other people's posts.
+- **Review:** Friday, 15 minutes: note what earned saves and DMs, and hand off to
   `linkedin-metrics-review`.
 
-## Step 7 — Deliver
+## Step 7: Deliver
 
-1. Audience + offer in one sentence each
-2. 3–4 pillars with 10 topic seeds apiece
+1. Audience and offer, one sentence each
+2. 3–4 pillars with 10 topic seeds each
 3. Cadence and the weekly rhythm
-4. 4-week calendar, fully drafted hooks
-5. 3 fully written posts they can publish this week
+4. 4-week calendar with every hook drafted
+5. 3 fully written posts they can publish this week, with `[placeholders]` wherever a
+   number or name is missing
 6. What to track, with today's baseline
 
 ## Anti-patterns
 
-- Engagement-bait ("Agree? 👇", tag-a-friend, fake polls). It buys reach from
-  people who will never buy and it teaches the algorithm the wrong audience.
-- Broad "value" content aimed at everyone — it grows followers who never
-  convert, then the user concludes LinkedIn does not work.
-- Posting only offers. Also posting only inspiration and never the offer.
+- Engagement bait ("Agree?", tag-a-friend, "comment YES"). LinkedIn reduces the
+  reach of posts that ask for engagement to boost reach, and it teaches the
+  algorithm the wrong audience.
+- Broad "value" content aimed at everyone. It grows followers who never convert,
+  and then the user concludes LinkedIn does not work.
+- Posting only offers. Also: posting only inspiration and never the offer.
 - Copying another creator's voice. Steal structure, never phrasing.
-- Chasing viral posts. One viral post to the wrong audience is worse than
-  twenty read by the right fifty people.
+- Chasing viral posts. One viral post to the wrong audience is worse than twenty
+  read by the right fifty people.

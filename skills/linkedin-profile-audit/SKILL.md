@@ -1,139 +1,171 @@
 ---
 name: linkedin-profile-audit
-description: "Use when auditing or rewriting a founder, creator, or influencer LinkedIn profile so visitors convert into followers, leads, and clients. Scores every section against a buyer-journey rubric and rewrites the weak ones."
-version: 1.1.0
+description: "Audits and rewrites a personal LinkedIn profile for founders, consultants, creators, and operators so visitors become followers, leads, and clients. Scores 10 sections on a weighted rubric, names the single biggest leak, and rewrites the headline, About, Featured, current role, and banner. Use when someone asks to review, audit, score, fix, or rewrite their LinkedIn profile, headline, or About section. Not for job seekers, resumes, or ATS keywords."
 license: MIT
-platforms: [linux, macos, windows]
 metadata:
-  audience: [founders, solopreneurs, creators, influencers, consultants, agency-owners]
-  not_for: [job-seekers, resume-writing, ats-optimization]
+  author: "9HEAVEN"
+  version: "1.2.0"
+  audience: "founders, solopreneurs, consultants, creators, influencers, agency owners"
+  not_for: "job seekers, resume writing, ATS optimization"
 ---
 
-# LinkedIn Profile Audit (Founders, Creators, Operators)
+# LinkedIn Profile Audit
 
-Audit a personal LinkedIn profile as a **conversion asset**, not a resume. The
-reader is a potential client, partner, or follower who arrived from a post,
-a search, or a DM. They decide in under 15 seconds whether to follow, book, or
-leave.
+Audit a personal profile as a **conversion asset**, not a resume. The reader is a
+potential client, partner, or follower who arrived from a post, a search, or a DM.
+They decide in seconds whether to follow, book, or leave.
 
-**This skill is not for job seekers.** No ATS scoring, no recruiter keywords,
-no "seeking opportunities" framing. If the user wants a job, say so plainly and
-stop — a resume skill fits better.
+**Not for job seekers.** No ATS scoring, no recruiter keywords, no "seeking
+opportunities" framing. If the user wants a job, say so plainly and stop: a resume
+skill fits better.
 
-## Step 1 — Get the profile
+## Pick the depth
 
-Ask for a paste first; it always works and needs no login:
+- **Quick:** the user names one piece ("just my headline", "fix my About"). Ask the
+  two intake questions in Step 1, get that section's text, and deliver that rewrite
+  plus one line naming the next most valuable fix. No score table.
+- **Full** (default for "audit my profile"): Steps 1 to 6.
+
+## Step 1: Get the profile
+
+Two questions decide every judgement below. Ask them first:
+
+- **Who are you trying to attract?** Specific beats broad: "operations leads at
+  20–200 person logistics companies who still run dispatch on spreadsheets" beats
+  "businesses".
+- **What single action should they take?** Book a call, DM a keyword, subscribe,
+  or follow. One primary, one fallback. Not five.
+
+Then ask for a paste. It always works and needs no login:
 
 ```
-Paste these, each labeled:
+Paste what you have, labeled. Skip anything you don't know and I'll mark it
+N/A instead of guessing.
+
+Profile text
 1. Headline (exact text)
 2. About section (full)
-3. Top 3 Experience entries (title, company, and the description text)
-4. Featured section items (titles + what they link to)
-5. Banner image: describe it in one line (or say "default blue")
-6. Profile photo: describe it in one line
-7. Follower count, connection count, and how many posts in the last 30 days
-8. Custom URL (linkedin.com/in/...) — yes or no
-9. Services section — set up, or empty?
-10. Newsletter — do you run one?
+3. Current role, plus your top 2 other Experience entries (title, company, description)
+4. Featured items: titles and where each one links
+5. Services section: the services listed, or "empty"
+6. Your top 3 skills, and how many recommendations you have received
+
+Visuals and setup
+7. Banner: describe it in one line (or say "default")
+8. Profile photo: describe it in one line
+9. Custom URL set (linkedin.com/in/yourname)? Location, website, and contact info filled in?
+10. Newsletter: do you run one, and how many subscribers?
+
+Numbers (from your Analytics)
+11. Followers and connections
+12. Posts in the last 30 days, and for your last 5 posts: impressions, reactions, comments, reposts
+13. Profile viewers and search appearances, with the period LinkedIn shows for each
 ```
 
-**Do not ask about "creator mode".** LinkedIn removed the toggle in March 2024 and
-profile hashtags/"Talks about" topics in February 2024. Its features (newsletter,
-Follow button, creator analytics) are on by default for eligible profiles. Asking
-for a setting that no longer exists tells the user you are working from stale
-knowledge. See `references/platform-reality.md`.
+**Optional live read:** if the user gives a public profile URL and asks you to fetch
+it, read the logged-out public view. That is exactly what a stranger sees, which is
+the point. Follow `references/capture-profile.md`. Never log in as the user, never
+read at scale, never touch someone else's profile without a legitimate reason.
 
-## Step 1b — Classify before you score
+**Do not ask about "creator mode" or profile hashtags.** Both were retired in early
+2024 (`references/platform-reality.md`). Asking for a setting that no longer exists
+tells the user you are working from stale knowledge.
 
-Record these four in the report header. Every judgement below changes based on them,
-and an audit that skips them applies the wrong benchmarks.
+## Step 2: Classify
 
-| Field | Options |
-|---|---|
-| **Profile type** | Founder / consultant-freelancer / creator-influencer / operator with a side offer |
-| **Industry** | Determines which engagement benchmarks apply |
-| **Target audience** | Clients / partners / investors / peers-and-followers |
-| **Primary market** | Local, national, or global — affects language and posting windows |
+Record these in the report header. Step 3 depends on them.
 
-If the answer to profile type is "job seeker", stop. This skill is the wrong tool.
+| Field | Options | What it changes |
+|---|---|---|
+| Profile type | Founder / consultant or freelancer / creator or influencer / operator with a side offer | The weights (table in Step 3) |
+| Target audience | Clients / partners / investors / peers and followers | The CTA and what goes in Featured slot 1 |
+| Primary market | Local / national / global | Language, examples, and posting windows |
+| Account size | Under or over about 10K followers | The engagement bands apply only under about 10K |
 
-Then ask the two questions that decide every judgement below:
+Note the industry too, but there is no reliable public benchmark per industry:
+compare the user with their own history first.
 
-- **Who are you trying to attract?** Specific: "D2C brand owners in India doing
-  ₹50L–₹5Cr who bleed money on a slow WooCommerce store" beats "businesses".
-- **What single action should they take?** Book a call / DM a keyword / join the
-  newsletter / follow. One primary, one fallback. Not five.
+If the profile type is "job seeker", stop. This skill is the wrong tool.
 
-**Optional live read:** if the user gives a public profile URL and asks you to
-fetch it, open it with the browser tool logged out and read the public view —
-this is exactly what a stranger sees, which is the point. See
-`references/capture-profile.md`. Never log in as the user, never scrape at
-scale, never touch profiles that are not the user's own without permission.
-
-## Step 2 — Score against the rubric
+## Step 3: Score against the rubric
 
 Score each section 0–5 using `references/scoring-rubric.md`. Weight matters more
-than the total: fix the highest-weight low score first.
+than the total: fix the section losing the most points first.
 
 | Section | Weight | The one job it does |
 |---|---|---|
-| Headline | 5 | Appears everywhere. Must say who you help + the outcome. |
-| Banner | 3 | Free billboard: proof, offer, or credibility marker. |
-| About | 5 | First 2 lines are the hook (rest is behind "see more"). |
+| Headline | 5 | Shows everywhere. Says who you help and the outcome. |
+| About | 5 | Lines 1–2 are the hook; the rest sits behind "see more". |
+| Activity | 5 | An empty feed makes the whole profile a dead end. |
 | Featured | 4 | The only place on the profile that converts directly. |
-| Experience (current) | 3 | Positions the business, not the duties. |
+| Banner | 3 | A free billboard: offer, proof, or credibility marker. |
+| Experience (current role) | 3 | Positions the business, not the duties. |
 | Photo | 2 | Face, eye contact, warm, cropped tight. |
-| Activity/posts | 5 | An empty feed makes the whole profile a dead end. |
-| Skills + recommendations | 2 | Social proof and search surface. |
-| Custom URL + contact info | 1 | Cheap, one-time fixes. |
-| Services section | 2 | Free lead surface most founders leave empty. |
+| Skills and recommendations | 2 | Social proof and search surface. |
+| Services | 2 | A free lead surface most founders leave empty. |
+| Completeness | 1 | Custom URL, location, contact info, website, Follow button. |
 
-Report as a table: section, score, the biggest single leak, the fix.
+**Total weight: 32** (defaults, before the profile-type changes below).
 
-**Compute the engagement rate, do not just quote raw numbers.**
+Adjust the weights by profile type before scoring:
+
+| Profile type | Change | Why |
+|---|---|---|
+| Founder | none | The defaults are built for this case |
+| Consultant or freelancer | Services 2 -> 4 | Services is a direct request path for people who sell their own time |
+| Creator or influencer | Services -> N/A | The primary action is follow or subscribe; Featured slot 1 becomes the newsletter or lead magnet |
+| Operator with a side offer | Experience (current role) 3 -> 1, Featured 4 -> 5 | The current role belongs to the employer and must describe that job honestly. Featured is where the side offer lives. Remind them to check the employer's social media policy |
+
+Compute the weighted score with the formula in the rubric. Sections marked N/A drop
+out of both sides of the formula. **Never score a section 0 because the data is
+missing.** 0 means confirmed absent from the profile; unknown means N/A.
+
+Report a table: section, weight, score, biggest leak, fix. Under it: the weighted
+total, its band, and the three sections losing the most points.
+
+**Compute the engagement rate, do not quote raw counts:**
 
 ```
-Engagement rate = (reactions + comments + shares) / impressions x 100
+Engagement rate = (reactions + comments + reposts) / impressions x 100
 ```
 
-A post with 15 reactions on 1,376 impressions is 1.16%, which is below target — and
-that reads very differently from "15 reactions". For small B2B accounts, 3–5% is
-healthy and 1–2% needs work. Benchmarks in `references/platform-reality.md`.
+15 reactions and 1 comment on 1,376 impressions is 16 / 1,376 = 1.16%. That reads
+very differently from "16 interactions". Compute it per post, report the median of
+the last 5, and grade it against the bands in `references/platform-reality.md`.
 
-## Step 3 — Name the biggest leak
+## Step 4: Name the biggest leak
 
 Do not hand over nine parallel fixes. State one sentence:
 
 > "Your biggest leak is X: [what happens to the visitor because of it]."
 
-The four leaks that account for most weak founder profiles:
+The four leaks behind most weak founder profiles:
 
-1. **Headline is a job title.** "Founder at Acme" tells a stranger nothing. It
-   must carry an audience and an outcome.
-2. **About is an autobiography.** Opens with "I have 10 years of experience..."
-   The visitor does not care yet. Open with their problem.
-3. **No Featured section.** The profile has no exit door — visitors leave
-   without a next step.
-4. **No recent posts.** Profile is a landing page for traffic that never
-   arrives. No content means no visitors means the rewrite changes nothing.
+1. **The headline is a job title.** "Founder at Acme" tells a stranger nothing. It
+   needs an audience and an outcome.
+2. **The About is an autobiography.** It opens with "I have 10 years of
+   experience...". The visitor does not care yet. Open with their problem.
+3. **No Featured section.** The profile has no exit door, so visitors leave without
+   a next step.
+4. **No recent posts.** The profile is a landing page for traffic that never
+   arrives, so a rewrite changes nothing.
 
-If #4 is true, say it directly: the profile is not the bottleneck, publishing
-is. Hand off to `linkedin-content-strategy`.
+If #4 is true, say it directly: the profile is not the bottleneck, publishing is.
+Hand off to `linkedin-content-strategy`.
 
-## Step 4 — Rewrite the weak sections
+## Step 5: Rewrite the weak sections
 
-Write in the user's voice, using their own words from the paste. Rules in
+Write in the user's voice, from their own words in the paste. Rules are in
 `references/voice-rules.md`. Non-negotiables:
 
-- **Zero fabrication.** Never invent a client, a number, a result, or a
-  credential. If a claim needs a number the user did not give, ask for it or
-  leave a `[your number]` placeholder.
-- No em dashes, no "unlock", "elevate", "passionate about", "results-driven",
-  "wearing many hats", "on a mission to".
-- Short lines. LinkedIn renders on mobile — a 4-line paragraph is a wall.
+- **Zero fabrication.** Never invent a client, number, result, or credential. If a
+  claim needs a number the user did not give, ask for it or leave a
+  `[your number]` placeholder.
+- No banned phrases ("passionate about", "results-driven", "unlock", "on a mission
+  to", and the rest of the list) and no em dashes.
+- Short lines. LinkedIn renders on mobile, where a 4-line paragraph is a wall.
 
-### Headline (220 chars)
+### Headline (up to 220 characters)
 
 Give **3 options**, each in a different frame:
 
@@ -141,64 +173,74 @@ Give **3 options**, each in a different frame:
 - **Proof frame:** "[Result achieved] for [N] [audience] | [what you do now]"
 - **Category frame:** "[Category you own] for [audience] | [credibility marker]"
 
-Front-load the first 60 characters. That is all that shows in search results,
-comments, and notifications.
+Front-load roughly the first 60 characters: that is what shows next to the name in
+comments, notifications, and search.
 
-### About (2,600 chars)
+### About (up to 2,600 characters)
 
-Structure:
-
-1. **Hook (lines 1–2, ~200 chars):** the visitor's problem or a specific,
+1. **Hook (lines 1–2, about 200 characters):** the visitor's problem or a specific,
    surprising claim. This is the only part shown before "see more".
-2. **Agitate (2–3 lines):** what it costs them to stay stuck.
-3. **Positioning (3–5 lines):** how you solve it, what makes your approach
-   different. Concrete method beats adjectives.
-4. **Proof (2–4 lines):** results, names, numbers, volume. Only real ones.
-5. **Who this is for / not for:** a disqualifier builds more trust than a
-   sales pitch.
-6. **CTA (2 lines):** the single action, stated plainly, with the link or the
-   DM keyword.
+2. **Agitate (2–3 lines):** what staying stuck costs them.
+3. **Positioning (3–5 lines):** how you solve it and what makes the approach
+   different. A concrete method beats adjectives.
+4. **Proof (2–4 lines):** results, names, numbers, volume. Real ones only.
+5. **Who this is for, and who it is not for:** a disqualifier builds more trust than
+   a pitch.
+6. **CTA (2 lines):** the single action, stated plainly, with the link or the DM
+   keyword.
 
 ### Featured (pick 4)
 
-Rank by conversion value: booking link or landing page > lead magnet >
-best-performing post > case study > podcast/press. Each needs a custom
-thumbnail and a title that reads as a benefit, not a filename.
+Rank by conversion value for the profile type:
 
-### Experience — current role
+- Founder, consultant, operator: booking link or landing page, then lead magnet,
+  then best-performing post, then case study, then podcast or press.
+- Creator: newsletter or lead magnet, then best-performing post, then a signature
+  series, then collaborations or press.
 
-Two or three lines about who the company serves and the outcome it delivers,
-then bullets of proof. Kill responsibility lists. For creators with no company,
-the "role" is the body of work: audience size, output, notable collaborations.
+Each item needs a custom thumbnail and a title that reads as a benefit, not a
+filename.
 
-### Banner
+### Experience: current role
 
-Specify what to put in it, do not just say "improve it": offer + proof + face
-or product, readable at thumbnail size, with the bottom-left corner kept clear
-because the profile photo covers it on desktop.
+Two or three lines on who the company serves and the outcome it delivers, then
+bullets of proof. Kill responsibility lists. For creators with no company, the
+"role" is the body of work: audience size, output, notable collaborations. For an
+operator with a side offer, keep the employer role accurate and put the offer in
+Featured and the About CTA instead.
 
-## Step 5 — Deliver
+### Banner (1584 x 396 px)
+
+Specify what to put in it, never just "improve it": offer, proof, and face or
+product, readable at phone width, with the bottom-left corner kept clear because the
+profile photo covers it.
+
+## Step 6: Deliver
 
 Output in this order, nothing else:
 
-1. **Score table** (section / score / leak / fix)
-2. **The one biggest leak**, one sentence
-3. **Rewrites**: 3 headlines, full About draft, Featured list, current-role
-   rewrite, banner brief
-4. **Do-this-week list**: max 5 items, ordered, each under 30 minutes
-5. **What to measure**: profile views, search appearances, and DMs per week,
-   with today's baseline written down
+1. **Header:** profile type, target audience, primary market, account size, and the
+   list of N/A sections
+2. **Score table** (section / weight / score / leak / fix), the weighted total and
+   band, and the three sections losing the most points. Mark the score
+   "provisional" if N/A sections carry more than a third of the weight.
+3. **The one biggest leak**, in one sentence
+4. **Rewrites:** 3 headlines, full About draft, Featured list, current-role rewrite,
+   banner brief
+5. **Do-this-week list:** at most 5 items, ordered, each under 30 minutes
+6. **Baseline to measure:** profile viewers, search appearances, and inbound DMs a
+   week, written down from the paste (or "not provided")
 
-Then offer the natural next step: `linkedin-content-strategy` if the feed is
-empty, `linkedin-lead-generation` if traffic arrives but nobody converts,
+Then offer the natural next step: `linkedin-content-strategy` if the feed is empty,
+`linkedin-lead-generation` if traffic arrives but nobody converts,
 `linkedin-company-page-audit` if they run a business page too.
 
 ## Anti-patterns
 
-- Scoring every section 3/5 and calling it an audit. Be decisive; a 2 is a 2.
+- Scoring every section 3/5 and calling it an audit. Be decisive: a 2 is a 2.
+- Scoring a section 0 because the paste left it out. Unknown is N/A.
 - Rewriting into polished corporate copy that erases the user's voice.
-- Recommending "post consistently" without a topic system — that belongs to
-  the content-strategy skill, and vague advice is why profiles stay dead.
-- Keyword-stuffing the headline. LinkedIn search rewards relevance, and humans
-  read the headline more than the algorithm does.
+- Recommending "post consistently" without a topic system. That belongs to
+  `linkedin-content-strategy`, and vague advice is why profiles stay dead.
+- Keyword-stuffing the headline. Humans read the headline more than search does.
 - Treating follower count as the goal. The goal is qualified conversations.

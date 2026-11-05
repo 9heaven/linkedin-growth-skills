@@ -1,15 +1,16 @@
 # DM Scripts
 
-Starting points to adapt, never to send verbatim. If a message could be sent to
-100 people unchanged, it will be ignored by all 100.
+Starting points to adapt, never to send verbatim. If a message could go to 100
+people unchanged, all 100 will ignore it. Every edit follows
+`references/voice-rules.md`.
 
 ## Inbound: they commented for a lead magnet
 
 ```
 Hey [name], here's the [asset] as promised: [link]
 
-Quick one so I can point you at the right part of it: what made you grab it,
-what are you trying to fix right now?
+So I can point you at the right part of it: what made you grab it? What are you
+trying to fix right now?
 ```
 
 Wait for the answer. Do not stack a second message.
@@ -34,10 +35,10 @@ Only after they respond:
 ```
 Happy to keep going here. If it's easier, I can walk through your [thing] live
 and show you exactly what I'd change: [booking link]. No pitch, and if it's not
-something I should be doing for you I'll say so.
+something I should be doing for you, I'll say so.
 ```
 
-## Inbound: they viewed the profile and messaged, no context
+## Inbound: they viewed the profile and messaged with no context
 
 ```
 Hey [name], thanks for reaching out. What are you working on?
@@ -48,30 +49,30 @@ Short is correct. Do not pitch into ambiguity.
 ## Warm outreach: they engaged with a post
 
 ```
-Hey [name] — you commented on my post about [specific topic]. Curious what
-prompted it, are you dealing with [the problem] at [their company] right now?
+Hey [name], you commented on my post about [specific topic]. Curious what
+prompted it: are you dealing with [the problem] at [their company] right now?
 ```
 
 ## Warm outreach: mutual client or community
 
 ```
 Hi [name], we both work with [shared context]. I've been [specific thing you do]
-for [audience] and your [specific thing about them] caught my attention.
+for [audience], and your [specific thing about them] caught my attention.
 Connecting, no agenda.
 ```
 
-Send it and mean it. If you pitch on accept, the whole approach stops working.
+Send it and mean it. Pitch on accept and the whole approach stops working.
 
 ## Follow-up after no reply
 
-Once, after 3–4 weeks, with something useful attached:
+One follow-up, 3–4 weeks later, with something useful attached:
 
 ```
-[name] — came across this and thought of your [specific situation]: [link or
+[name], came across this and thought of your [specific situation]: [link or
 one-line insight]. No reply needed.
 ```
 
-Never a third follow-up. Never "just bumping this to the top of your inbox".
+Never a second follow-up. Never "just bumping this to the top of your inbox".
 
 ## Qualifying before a call
 

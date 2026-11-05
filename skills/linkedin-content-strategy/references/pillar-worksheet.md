@@ -31,7 +31,8 @@ in order and write down the raw answers; the pillars fall out of them.
 ## Turning answers into pillars
 
 Group the answers into 3–4 themes. Name each pillar in the user's own language,
-not in marketing categories. "Speed is a revenue problem" beats "Technical SEO".
+not in marketing categories: "Speed is a revenue problem" beats "Technical SEO",
+and "New managers inherit broken teams" beats "Leadership".
 
 For each pillar write:
 

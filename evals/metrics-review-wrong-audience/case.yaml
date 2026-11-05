@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: metrics-review-wrong-audience
+expected_outcome: |
+  A top-down review that names the bottleneck: content reaching the wrong
+  people, confirmed by the follower mix, ending with exactly one change and the
+  number it should move.

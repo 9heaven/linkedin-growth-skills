@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: profile-audit-creator
+expected_outcome: |
+  The profile is classified as a creator. Services is N/A rather than 0, and
+  Featured slot 1 should be the newsletter. Engagement is computed per post with
+  the median reported and graded against the bands.
