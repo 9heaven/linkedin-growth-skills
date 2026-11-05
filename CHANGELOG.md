@@ -3,15 +3,6 @@
 All notable changes to this project. Versions follow [Semantic Versioning](https://semver.org/).
 The plugin manifest and every skill share one version number.
 
-## [Unreleased]
-
-### Changed
-
-- README rewritten for users: quick start, a "which skill do I need" table, an
-  example audit, collapsible install options with update commands, a Mermaid
-  workflow diagram, and an FAQ. Maintainer material moved to `CONTRIBUTING.md`.
-- `scripts/check.py` also checks the README version badge.
-
 ## [1.2.0] - 2026-11-05
 
 ### Fixed
@@ -54,6 +45,9 @@ The plugin manifest and every skill share one version number.
 - Authority growth no longer asks the agent to name 15–25 real accounts; the user
   supplies names and the agent never invents them.
 - Shared files live once in `shared/references/` and are copied into each skill.
+- README rewritten for users: quick start, a "which skill do I need" table, an
+  example audit, collapsible install options with update commands, a Mermaid
+  workflow diagram, and an FAQ. Maintainer material moved to `CONTRIBUTING.md`.
 
 ### Added
 
@@ -68,6 +62,8 @@ The plugin manifest and every skill share one version number.
   eval structure. `check.py lint FILE` checks any draft against the voice rules.
 - Eval cases for every skill in the `claude plugin eval` layout, including the
   refusal paths (job seeker, mass automation, invented names).
+- `CONTRIBUTING.md`: repository layout, shared-file sync, checks, evals, and
+  release steps. `check.py` also checks the README version badge.
 
 ## [1.1.0] - 2026-09-05
 
