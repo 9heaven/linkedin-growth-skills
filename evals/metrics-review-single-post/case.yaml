@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: metrics-review-single-post
+expected_outcome: |
+  Quick mode. The engagement rate is computed with the formula shown as
+  16 / 1,376 = 1.16%, graded below target, with one likely reason and one change.

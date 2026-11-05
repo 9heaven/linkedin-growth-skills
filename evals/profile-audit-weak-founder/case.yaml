@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: profile-audit-weak-founder
+expected_outcome: |
+  A full audit. Sections the user gave no data for are N/A, not 0. A weighted
+  score out of 100 lands under 40. The biggest leak is publishing, with a handoff
+  to linkedin-content-strategy. Three headline options and an About rewrite in
+  the user's voice, with placeholders instead of invented numbers.

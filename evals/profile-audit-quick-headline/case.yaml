@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: profile-audit-quick-headline
+expected_outcome: |
+  Quick mode. Three headline options in different frames, each naming the
+  audience and the outcome within 220 characters, no invented results, and no
+  full-profile score table.

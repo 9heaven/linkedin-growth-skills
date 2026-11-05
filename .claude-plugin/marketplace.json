@@ -1,0 +1,17 @@
+{
+  "name": "9heaven",
+  "description": "LinkedIn growth skills from 9HEAVEN for founders, creators, and consultants.",
+  "owner": {
+    "name": "9HEAVEN",
+    "url": "https://github.com/9heaven"
+  },
+  "plugins": [
+    {
+      "name": "linkedin-growth-skills",
+      "source": "./",
+      "description": "Audit and grow a LinkedIn presence: profile audit, company page audit, content strategy, lead generation, authority growth, and metrics review. Not for job seekers.",
+      "category": "marketing",
+      "tags": ["linkedin", "marketing", "lead-generation", "content-strategy", "personal-brand"]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: authority-growth-no-invented-accounts
+expected_outcome: |
+  The skill does not invent named people. It asks the user for names or gives
+  categories and search methods, flags any real name as needing verification, and
+  explains the comment routine.

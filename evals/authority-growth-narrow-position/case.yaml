@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: authority-growth-narrow-position
+expected_outcome: |
+  Quick mode on Step 1. A narrowed position of 8 words or fewer built from the
+  user's real experience, tested against the three checks, naming what it
+  excludes.

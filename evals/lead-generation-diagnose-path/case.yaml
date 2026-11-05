@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: lead-generation-diagnose-path
+expected_outcome: |
+  The diagnosis names profile conversion as the broken step, using the user's
+  numbers, hands off to linkedin-profile-audit, rewrites the one-line offer, and
+  does not lead with outreach volume.

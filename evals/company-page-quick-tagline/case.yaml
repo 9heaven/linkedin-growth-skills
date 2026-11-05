@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: company-page-quick-tagline
+expected_outcome: |
+  Quick mode. Three tagline options of 120 characters or fewer that state the
+  audience and the outcome, with no banned filler and no full audit.
