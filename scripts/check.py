@@ -273,6 +273,8 @@ def check_manifests(versions, names):
     top = re.search(r"^## \[(\d+\.\d+\.\d+)\]", changelog, re.M)
     versions["CHANGELOG.md latest"] = top.group(1) if top else None
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
+    badge = re.search(r"badge/version-(\d+\.\d+\.\d+)-", readme)
+    versions["README version badge"] = badge.group(1) if badge else None
     for name in names:
         if f"**{name}**" not in readme:
             fail(ROOT / "README.md", f"skills table is missing {name}")
