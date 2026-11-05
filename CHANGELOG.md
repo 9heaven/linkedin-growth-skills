@@ -3,6 +3,15 @@
 All notable changes to this project. Versions follow [Semantic Versioning](https://semver.org/).
 The plugin manifest and every skill share one version number.
 
+## [Unreleased]
+
+### Changed
+
+- README rewritten for users: quick start, a "which skill do I need" table, an
+  example audit, collapsible install options with update commands, a Mermaid
+  workflow diagram, and an FAQ. Maintainer material moved to `CONTRIBUTING.md`.
+- `scripts/check.py` also checks the README version badge.
+
 ## [1.2.0] - 2026-11-05
 
 ### Fixed
