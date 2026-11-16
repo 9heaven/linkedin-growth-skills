@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: post-writer-review-draft
+expected_outcome: |
+  Review mode. The verdict is not Publish. The review flags the banned opening,
+  the unsourced 82% statistic, the competing ideas, and the bait ending, keeps
+  the user's real details, and gives at most three ranked fixes.

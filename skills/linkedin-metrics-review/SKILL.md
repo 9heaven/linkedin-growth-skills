@@ -4,7 +4,7 @@ description: "Reviews LinkedIn performance for founders, creators, and business 
 license: MIT
 metadata:
   author: "9HEAVEN"
-  version: "1.2.0"
+  version: "1.3.0"
   audience: "founders, creators, influencers, agency owners"
   not_for: "job seekers, follower-count chasing"
 ---
@@ -22,6 +22,12 @@ they sit to revenue.
   timing), and give one change. Then offer the full review.
 - **Full** (default): the hierarchy, the weekly or monthly review, and the delivery
   below.
+
+## Use the context file
+
+Before asking anything, follow `references/context-file.md`: load
+`linkedin-context.md` if it exists, ask only for what is missing, and save what you
+learn at the end.
 
 ## The metric hierarchy
 
@@ -85,6 +91,7 @@ Same time every week. Five questions, in this order:
 2. **Which post drove the most profile views?** Not the most reactions. Study its
    hook and format.
 3. **Which post underperformed, and why?** Hook, topic, format, or timing: pick one.
+   `linkedin-post-writer` can review the draft of the next one.
 4. **Did the follower mix improve?** Check the new followers' titles.
 5. **What is the single change for next week?** One change, not five. Changing one
    variable is the only way to learn anything.
@@ -133,7 +140,8 @@ themselves last month.
 3. The best and worst post of the period, with the reason
 4. The follower-mix check against the target buyer
 5. One change for next week, and the number it should move
-6. The updated baseline for the next review
+6. The updated baseline for the next review, logged in the context file with the
+   one change
 
 ## Anti-patterns
 

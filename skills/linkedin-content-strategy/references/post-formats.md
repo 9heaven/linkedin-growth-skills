@@ -3,6 +3,32 @@
 Structures, not scripts. Fill them with the user's real material in the user's own
 words. Every one of these fails if the content underneath is generic.
 
+## Hooks
+
+The first two lines decide whether anyone reads the rest, which sits behind "see
+more". Write them last, after the post is drafted.
+
+Shapes that work without sounding like a growth hacker. The niches vary on purpose:
+copy the shape, never the content.
+
+- **Specific number:** "We cut a client's checkout load time from 8.4s to 1.9s.
+  Here's what actually did it."
+- **Contrarian claim:** "Most SaaS onboarding emails are written for the product
+  team, not the user."
+- **Confession:** "I lost my biggest retainer last month. My fault, and here's the
+  mistake."
+- **Direct address:** "If your clinic gets calls but no bookings, check this before
+  you touch the ads."
+- **Before and after:** "Two years ago I was X. Today Y. The three decisions in
+  between:"
+
+Banned openings: "Excited to announce", "Thrilled to share", "In today's
+fast-paced world", "Let that sink in", and walls of one-line paragraphs used as
+fake drama.
+
+A hook must be true of the post under it. If the body does not deliver what the
+hook promises, fix the hook, not the body.
+
 ## 1. Result teardown (proof pillar)
 
 ```
@@ -133,8 +159,7 @@ comment.
 
 - 900–1,300 characters for text posts: long enough to be worth the click, short
   enough to finish.
-- The first two lines are 80% of the work. Write them last, after the post is
-  drafted.
+- The first two lines are most of the work. See Hooks above.
 - One idea per post. A post that makes three points makes none.
 - On company pages, links always go in the first comment. On personal profiles, the
   first comment is the safe default when reach matters.

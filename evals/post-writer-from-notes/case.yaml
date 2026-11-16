@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: post-writer-from-notes
+expected_outcome: |
+  One post ready to paste, built only from the numbers in the notes, in the
+  user's plain voice, with two alternative hooks and no explanation of the post.

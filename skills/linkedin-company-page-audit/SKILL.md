@@ -4,7 +4,7 @@ description: "Audits and rebuilds a LinkedIn company page for a small business, 
 license: MIT
 metadata:
   author: "9HEAVEN"
-  version: "1.2.0"
+  version: "1.3.0"
   audience: "founders, agency owners, startups, small businesses, creators with brands"
   not_for: "job seekers, employer branding for large enterprises"
 ---
@@ -24,6 +24,12 @@ their reshares. Never sell the user a plan built on the page going viral on its 
   who the page is for and what visitors should do, get that text, and deliver that
   rewrite plus one line naming the next fix. No score table.
 - **Full** (default for "audit our page"): Steps 1 to 6.
+
+## Use the context file
+
+Before asking anything, follow `references/context-file.md`: load
+`linkedin-context.md` if it exists, ask only for what is missing, and save what you
+learn at the end.
 
 ## Step 1: Get the page
 
@@ -204,6 +210,7 @@ Hand off to `linkedin-content-strategy` for pillars and the writing system.
 4. 4-week content plan: 12 concrete post ideas with formats
 5. Baseline: followers, page views, unique visitors, button clicks, posts a week,
    written down today (or "not provided") so the next review has a comparison
+6. Anything new about the audience or offer saved to the context file
 
 ## Anti-patterns
 

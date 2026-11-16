@@ -4,7 +4,7 @@ description: "Turns LinkedIn attention into booked calls and paying clients for 
 license: MIT
 metadata:
   author: "9HEAVEN"
-  version: "1.2.0"
+  version: "1.3.0"
   audience: "founders, consultants, agency owners, creators selling services"
   not_for: "job seekers, mass automation, scraping at scale"
 ---
@@ -25,6 +25,12 @@ version that works.
   line"). Do that step only, using `references/dm-scripts.md` for messages, and name
   the broken step if the numbers they gave point to one.
 - **Full** (default for "help me get leads"): the path diagnosis, then Steps 1 to 6.
+
+## Use the context file
+
+Before asking anything, follow `references/context-file.md`: load
+`linkedin-context.md` if it exists, ask only for what is missing, and save what you
+learn at the end.
 
 ## The path
 
@@ -154,6 +160,7 @@ and buys a lasting reputation.
    inbound is live
 6. Metrics: profile views, DMs started, calls booked, close rate, with today's
    baseline (or "not provided")
+7. The one-line offer saved to the context file
 
 ## Anti-patterns
 
