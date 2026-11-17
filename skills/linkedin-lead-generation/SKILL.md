@@ -1,10 +1,10 @@
 ---
 name: linkedin-lead-generation
-description: "Turns LinkedIn attention into booked calls and paying clients for founders, consultants, and creators selling their own services. Finds the broken step in the content-to-client path, fixes the one-line offer, scripts inbound plays and DM replies, and plans capped, personalized warm outreach. Use when someone asks how to get leads, clients, or calls from LinkedIn, how to reply to DMs, or how to do outreach. Refuses mass automation, scraping, and templated DM spam."
+description: "Turns LinkedIn attention into booked calls and paying clients for founders, consultants, and creators selling their own services. Use for any request about getting leads, clients, or calls from LinkedIn, replying to a DM, writing a connection request or outreach message, or sending requests and DMs at volume or with a script, bot, or tool. Finds the broken step in the content-to-client path, fixes the one-line offer, scripts inbound plays and DM replies, and plans capped, personalized warm outreach. Declines mass automation, scraping, and templated DM spam, and offers the manual version that works."
 license: MIT
 metadata:
   author: "9HEAVEN"
-  version: "1.2.0"
+  version: "1.3.0"
   audience: "founders, consultants, agency owners, creators selling services"
   not_for: "job seekers, mass automation, scraping at scale"
 ---
@@ -25,6 +25,13 @@ version that works.
   line"). Do that step only, using `references/dm-scripts.md` for messages, and name
   the broken step if the numbers they gave point to one.
 - **Full** (default for "help me get leads"): the path diagnosis, then Steps 1 to 6.
+
+## Use the context file
+
+Before asking anything, follow `references/context-file.md`: load
+`linkedin-context.md` if it exists, ask only for what is missing, and save what you
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## The path
 
@@ -154,6 +161,7 @@ and buys a lasting reputation.
    inbound is live
 6. Metrics: profile views, DMs started, calls booked, close rate, with today's
    baseline (or "not provided")
+7. The one-line offer saved to the context file
 
 ## Anti-patterns
 

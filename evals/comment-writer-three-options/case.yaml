@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: comment-writer-three-options
+expected_outcome: |
+  Three comment options using different moves, each two to four sentences, built
+  from the user's stated take, with no praise opener, no pitch, and no invented
+  figures.

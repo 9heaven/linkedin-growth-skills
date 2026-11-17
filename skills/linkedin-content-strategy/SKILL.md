@@ -4,7 +4,7 @@ description: "Builds a LinkedIn content system for founders, consultants, creato
 license: MIT
 metadata:
   author: "9HEAVEN"
-  version: "1.2.0"
+  version: "1.3.0"
   audience: "founders, creators, influencers, consultants, agency owners"
   not_for: "job seekers, corporate employer branding"
 ---
@@ -23,8 +23,16 @@ this out loud when the user asks for follower tactics.
 
 - **Quick:** the user wants a few posts or hooks, not a plan. Get Step 1's four
   answers in one message (or ask for them), write what was asked using
-  `references/post-formats.md`, and offer the full plan in one line.
+  `references/post-formats.md`, and offer the full plan in one line. For one post,
+  or a review of a draft, `linkedin-post-writer` goes deeper.
 - **Full** (default for "build my content strategy"): Steps 1 to 7.
+
+## Use the context file
+
+Before asking anything, follow `references/context-file.md`: load
+`linkedin-context.md` if it exists, ask only for what is missing, and save what you
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## Step 1: Establish the foundation
 
@@ -105,25 +113,10 @@ Facts behind this section, with sources and grades: `references/platform-reality
 
 ## Step 5: Hooks
 
-The first two lines decide everything; the rest sits behind "see more".
-
-Hook shapes that work without sounding like a growth hacker. The niches vary on
-purpose: copy the shape, never the content.
-
-- **Specific number:** "We cut a client's checkout load time from 8.4s to 1.9s.
-  Here's what actually did it."
-- **Contrarian claim:** "Most SaaS onboarding emails are written for the product
-  team, not the user."
-- **Confession:** "I lost my biggest retainer last month. My fault, and here's the
-  mistake."
-- **Direct address:** "If your clinic gets calls but no bookings, check this before
-  you touch the ads."
-- **Before and after:** "Two years ago I was X. Today Y. The three decisions in
-  between:"
-
-Banned openings: "Excited to announce", "Thrilled to share", "In today's
-fast-paced world", "Let that sink in", and walls of one-line paragraphs used as
-fake drama.
+The first two lines decide everything; the rest sits behind "see more". The hook
+shapes (specific number, contrarian claim, confession, direct address, before and
+after) and the banned openings are in `references/post-formats.md`. Draft every hook
+in the calendar from one of those shapes, using the user's own material.
 
 Voice rules: `references/voice-rules.md`. Write how the user talks. If they sent
 samples, mirror their sentence length and vocabulary.
@@ -140,7 +133,7 @@ Add the weekly operating rhythm:
   India, 8–11am IST is a common starting point). Test two windows for 4 weeks each
   and keep the winner. No posting time is gospel.
 - **Engage:** 20 minutes right after posting, replying to every comment. Then 10
-  comments a day on other people's posts.
+  comments a day on other people's posts. `linkedin-comment-writer` drafts both.
 - **Review:** Friday, 15 minutes: note what earned saves and DMs, and hand off to
   `linkedin-metrics-review`.
 
@@ -150,13 +143,17 @@ Add the weekly operating rhythm:
 2. 3–4 pillars with 10 topic seeds each
 3. Cadence and the weekly rhythm
 4. 4-week calendar with every hook drafted
-5. 3 fully written posts they can publish this week, with `[placeholders]` wherever a
-   number or name is missing
+5. 3 fully written posts they can publish this week. Choose topics the material
+   they already gave can carry, with a `[placeholder]` only for the odd missing
+   number or name. A post that is mostly placeholders is a template, not a post: if
+   the material cannot carry three, write the ones it can and ask up to 3 questions
+   for the rest.
 6. What to track, with today's baseline
+7. The pillars and cadence saved to the context file
 
 ## Anti-patterns
 
-- Engagement bait ("Agree?", tag-a-friend, "comment YES"). LinkedIn reduces the
+- Engagement bait ("Agree?", tag-a-friend, "comment YES", "Save this"). LinkedIn reduces the
   reach of posts that ask for engagement to boost reach, and it teaches the
   algorithm the wrong audience.
 - Broad "value" content aimed at everyone. It grows followers who never convert,

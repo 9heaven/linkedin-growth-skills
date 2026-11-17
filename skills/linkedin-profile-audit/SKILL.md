@@ -1,10 +1,10 @@
 ---
 name: linkedin-profile-audit
-description: "Audits and rewrites a personal LinkedIn profile for founders, consultants, creators, and operators so visitors become followers, leads, and clients. Scores 10 sections on a weighted rubric, names the single biggest leak, and rewrites the headline, About, Featured, current role, and banner. Use when someone asks to review, audit, score, fix, or rewrite their LinkedIn profile, headline, or About section. Not for job seekers, resumes, or ATS keywords."
+description: "Audits and rewrites a personal LinkedIn profile for founders, consultants, creators, and operators so visitors become followers, leads, and clients. Use for any request about a personal LinkedIn profile, including a single piece: review, audit, score, or fix my profile, or rewrite my headline, About section, Featured, or banner. Scores 10 sections on a weighted rubric, names the biggest leak, and writes 3 headline options and a full About in the user's voice without inventing results. Not for job seekers, resumes, or ATS keywords."
 license: MIT
 metadata:
   author: "9HEAVEN"
-  version: "1.2.0"
+  version: "1.3.0"
   audience: "founders, solopreneurs, consultants, creators, influencers, agency owners"
   not_for: "job seekers, resume writing, ATS optimization"
 ---
@@ -25,6 +25,13 @@ skill fits better.
   two intake questions in Step 1, get that section's text, and deliver that rewrite
   plus one line naming the next most valuable fix. No score table.
 - **Full** (default for "audit my profile"): Steps 1 to 6.
+
+## Use the context file
+
+Before asking anything, follow `references/context-file.md`: load
+`linkedin-context.md` if it exists, ask only for what is missing, and save what you
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## Step 1: Get the profile
 
@@ -223,7 +230,8 @@ Output in this order, nothing else:
    list of N/A sections
 2. **Score table** (section / weight / score / leak / fix), the weighted total and
    band, and the three sections losing the most points. Mark the score
-   "provisional" if N/A sections carry more than a third of the weight.
+   "provisional" if N/A sections carry more than a third of the weight. If the
+   context file logs an earlier score, show the change next to the new total.
 3. **The one biggest leak**, in one sentence
 4. **Rewrites:** 3 headlines, full About draft, Featured list, current-role rewrite,
    banner brief
@@ -231,7 +239,8 @@ Output in this order, nothing else:
 6. **Baseline to measure:** profile viewers, search appearances, and inbound DMs a
    week, written down from the paste (or "not provided")
 
-Then offer the natural next step: `linkedin-content-strategy` if the feed is empty,
+Log the score, the biggest leak, and the baseline in the context file. Then offer
+the natural next step: `linkedin-content-strategy` if the feed is empty,
 `linkedin-lead-generation` if traffic arrives but nobody converts,
 `linkedin-company-page-audit` if they run a business page too.
 

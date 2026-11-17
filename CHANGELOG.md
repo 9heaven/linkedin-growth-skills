@@ -3,6 +3,34 @@
 All notable changes to this project. Versions follow [Semantic Versioning](https://semver.org/).
 The plugin manifest and every skill share one version number.
 
+## [1.3.0] - 2026-11-16
+
+### Added
+
+- **linkedin-post-writer:** writes one post from an idea, notes, or a client result,
+  with two alternative hooks, or reviews a draft against an 8-criterion rubric
+  (score out of 16, hard fails, top 3 fixes, edited version).
+- **linkedin-comment-writer:** three comment options on a pasted post, each built on
+  the user's own take, using six named moves. Also drafts replies to comments on the
+  user's posts. Refuses bulk, generic, and automated commenting.
+- **Shared context file.** Every skill loads `linkedin-context.md` (audience, offer,
+  proof inventory, voice, pillars, score and baseline log) before asking anything,
+  asks only for what is missing, and saves what it learns. Agents that cannot write
+  files print the block for the user to keep.
+- Profile audit shows the change from the previous score when the context file has one.
+- Six new eval cases (21 in total), covering both new skills and context reuse.
+- First full eval run. Mean score across 21 cases went from 0.72 to about 0.90
+  after fixes: descriptions now name single-piece requests so skills trigger
+  reliably, voice rules ban "write first, verify later" and changing what a
+  number measures, and the post writer asks for specifics before drafting.
+
+### Changed
+
+- `post-formats.md` is now a shared file used by content strategy and the post
+  writer. The hook shapes and banned openings moved into it from the content
+  strategy SKILL.md.
+- Content strategy, authority growth, and metrics review hand off to the new skills.
+
 ## [1.2.0] - 2026-11-05
 
 ### Fixed

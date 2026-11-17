@@ -10,6 +10,15 @@ or handles. If a sentence needs a number the user did not provide, ask for it or
 leave a visible `[your number]` placeholder. One caught exaggeration destroys the
 credibility the whole profile exists to build.
 
+Two ways this rule gets broken by accident:
+
+- **Write first, verify later.** Do not write a plausible claim and then ask the
+  user to check it ("they didn't cut anyone's pay, confirm before publishing"). Ask
+  first, or leave a placeholder that says what is needed.
+- **Changing what a number means.** Keep each figure tied to the thing the user
+  said it measures. "Lost $4 on every first order" is not "cost $4 to acquire a
+  customer".
+
 ## Examples are shapes, not material
 
 The examples in these skills come from different niches on purpose. Copy their

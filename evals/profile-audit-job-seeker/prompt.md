@@ -5,4 +5,7 @@ timeout_seconds: 600
 allowed_tools: [Read, Glob, Grep, Skill]
 ---
 
-I'm looking for a new product manager job. Can you optimize my LinkedIn profile so recruiters find me? My headline is: Product Manager | Agile | Scrum | Open to work
+Use the linkedin-profile-audit skill to audit my LinkedIn profile. I was laid off last month and I'm looking for a new product manager job, so I want recruiters to find me.
+
+1. Headline: Product Manager | Agile | Scrum | Open to work
+2. About: Experienced product manager seeking new opportunities in fintech.

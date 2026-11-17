@@ -1,10 +1,10 @@
 # LinkedIn Growth Skills
 
 [![check](https://github.com/9heaven/linkedin-growth-skills/actions/workflows/check.yml/badge.svg)](https://github.com/9heaven/linkedin-growth-skills/actions/workflows/check.yml)
-![version](https://img.shields.io/badge/version-1.2.0-blue)
+![version](https://img.shields.io/badge/version-1.3.0-blue)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
-Six agent skills that turn a LinkedIn presence into a pipeline for **founders,
+Eight agent skills that turn a LinkedIn presence into a pipeline for **founders,
 consultants, creators, and agency owners**. They audit, rewrite, plan, and measure,
 and they judge all of it by one number: qualified conversations.
 
@@ -16,7 +16,7 @@ that reads [Agent Skills](https://agentskills.io/specification).
 
 ## Quick start
 
-1. Install all six skills:
+1. Install all eight skills:
 
    ```bash
    npx skills add 9heaven/linkedin-growth-skills
@@ -35,6 +35,10 @@ that reads [Agent Skills](https://agentskills.io/specification).
 
 No login, no browser extension, no LinkedIn password. Pasting always works.
 
+You only answer the setup questions once. The skills keep your audience, offer,
+proof, and voice in a small `linkedin-context.md` file and reuse it, so the next
+skill starts from what the last one learned.
+
 ## Which skill do I need?
 
 | Your situation | Say something like | Skill |
@@ -42,6 +46,9 @@ No login, no browser extension, no LinkedIn password. Pasting always works.
 | The profile has not been touched in a while | "Audit my LinkedIn profile" | **linkedin-profile-audit** |
 | You only want one piece rewritten | "Just rewrite my headline" | **linkedin-profile-audit** (quick mode) |
 | The profile is fine but nothing happens | "What should I post on LinkedIn?" | **linkedin-content-strategy** |
+| You have an idea, notes, or a client win | "Write a post from these notes" | **linkedin-post-writer** |
+| You wrote a draft and aren't sure about it | "Is this post ready to publish?" | **linkedin-post-writer** (review mode) |
+| You know you should comment, but on what? | "Help me comment on this post" | **linkedin-comment-writer** |
 | Posts get views but nobody messages you | "Why am I not getting leads?" | **linkedin-lead-generation** |
 | Someone replied and you don't know what to say | "How do I reply to this DM?" | **linkedin-lead-generation** (quick mode) |
 | You run a company page that nobody sees | "Audit our company page" | **linkedin-company-page-audit** |
@@ -176,6 +183,8 @@ files the skill reads.
 | **linkedin-profile-audit** | A weighted score across 10 sections (adjusted for founders, consultants, creators, and operators with a side offer), the biggest leak, 3 headlines, a full About, Featured, current role, and banner brief. |
 | **linkedin-company-page-audit** | A 12-element page score, where page traffic really comes from, rewritten tagline, About, specialties, button and Products entries, and a founder-to-page content loop. |
 | **linkedin-content-strategy** | 3–4 pillars with topic seeds, a cadence that fits your time, a 4-week calendar with drafted hooks, and 3 posts ready to publish. |
+| **linkedin-post-writer** | One post from your idea or notes, in your voice, with two alternative hooks. Or a review of your draft: a score out of 16, the top 3 fixes, and an edited version. |
+| **linkedin-comment-writer** | Three comment options on a pasted post, each built on your own take, plus replies to comments on your posts. |
 | **linkedin-lead-generation** | The broken step in content-to-client, a one-line offer, inbound plays, DM scripts, and capped warm outreach. |
 | **linkedin-authority-growth** | A narrowed position, a proof-stack audit, a comment and collaboration routine, a signature format, and a dated 90-day arc. |
 | **linkedin-metrics-review** | A 5-tier read from revenue down to impressions, engagement rates computed properly, and one change for next week. |
@@ -185,11 +194,15 @@ files the skill reads.
 ```mermaid
 flowchart LR
   P[profile-audit] --> C[content-strategy]
-  C --> L[lead-generation]
+  C --> W[post-writer]
+  C --> K[comment-writer]
+  W --> L[lead-generation]
+  K --> L
   P --> A[authority-growth]
   L --> A
   A --> M[metrics-review]
   M -. weekly loop .-> C
+  A --> K
   CP[company-page-audit] --> C
 ```
 
@@ -208,7 +221,7 @@ ends by pointing to the next one.
   and a grade: LinkedIn, Study, Reported, or House rule. The skills know which
   numbers are LinkedIn's own and which are practitioner lore.
 - **No spam, no automation, no scraping.** Outreach is capped at human volume and
-  personalized. The skills refuse mass-DM and bulk-scraping requests.
+  personalized. The skills refuse mass-DM, bulk-comment, and bulk-scraping requests.
 - **Your voice, not a brand deck.** A banned-phrase list, no em dashes, and a rule
   to keep your own phrasing, so the drafts actually get published.
 - **Tested.** CI validates every skill on each push, and
@@ -224,6 +237,10 @@ sent anywhere, or collected in bulk, and no LinkedIn credentials are ever reques
 
 **Do I need to give it my LinkedIn login?** No. You paste text, or the agent reads
 your public profile logged out. It never asks for credentials, cookies, or a session.
+
+**Where is my information kept?** In `linkedin-context.md` in your working folder,
+or in a block you paste back in if your agent cannot save files. It holds only what
+you told the skills, never a password, and you can edit or delete it at any time.
 
 **Can this get my account restricted?** The skills refuse automation. Manual
 outreach is capped at 10–15 personalized invitations a weekday, with 20 as a hard

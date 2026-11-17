@@ -1,10 +1,10 @@
 ---
 name: linkedin-authority-growth
-description: "Builds credibility and the right audience on LinkedIn for founders, consultants, creators, and experts: narrows the position, audits the proof stack, plans comment and collaboration routines, picks a signature format, and sets a dated 90-day arc. Use when someone asks how to become known for something on LinkedIn, build authority or thought leadership, grow a niche audience, or get referrals from LinkedIn. Not for job seeking, follower buying, or engagement pods."
+description: "Builds credibility and the right audience on LinkedIn for founders, consultants, creators, and experts. Use when someone asks how to become known for something, narrow a niche or position, build authority or thought leadership, choose which accounts or people to follow or comment on, plan collaborations, or get referrals from LinkedIn. Narrows the position, audits the proof stack, plans comment and collaboration routines, picks a signature format, and sets a dated 90-day arc. Never invents names or accounts. Not for job seeking, follower buying, or engagement pods."
 license: MIT
 metadata:
   author: "9HEAVEN"
-  version: "1.2.0"
+  version: "1.3.0"
   audience: "founders, creators, influencers, consultants, experts"
   not_for: "job seekers, follower buying, engagement pods"
 ---
@@ -24,6 +24,13 @@ and network: the parts that make the same content land harder.
 - **Quick:** the user asks one thing ("help me narrow my niche", "what should my
   signature series be"). Run that step only and deliver its output.
 - **Full** (default): Steps 1 to 6.
+
+## Use the context file
+
+Before asking anything, follow `references/context-file.md`: load
+`linkedin-context.md` if it exists, ask only for what is missing, and save what you
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## Step 1: Claim a specific position
 
@@ -83,7 +90,7 @@ beats hoping for reach.
   replace other activity, not add to it.
 - Treat a comment as content, not a courtesy. It is the cheapest reach on the
   platform: it puts the user's name in front of an audience they did not have to
-  build.
+  build. `linkedin-comment-writer` drafts them post by post.
 
 **Collaborations that compound:**
 
@@ -136,6 +143,7 @@ consistent output. Anyone promising 30 days is selling engagement pods.
 5. The 90-day arc with dated milestones
 6. Metrics: followers from the target audience, profile views, inbound DMs, and
    unsolicited referrals, with today's baseline (or "not provided")
+7. The position, its exclusions, and the signature format saved to the context file
 
 ## Anti-patterns
 

@@ -17,7 +17,8 @@ scripts/check.py                 validation, shared-file sync, and a voice-rule 
 
 ## Shared files
 
-`voice-rules.md` and `platform-reality.md` are edited only in `shared/references/`.
+`voice-rules.md`, `platform-reality.md`, `context-file.md`, and `post-formats.md` are
+edited only in `shared/references/`.
 Each skill carries its own copy so it still works when installed alone. After
 editing, copy the change into every skill that cites the file:
 

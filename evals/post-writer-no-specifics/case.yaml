@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: post-writer-no-specifics
+expected_outcome: |
+  With no specifics supplied, the skill either asks up to three short questions
+  to get real material, or drafts an opinion post with marked placeholders. It
+  does not invent a statistic, a client story, or a result.
