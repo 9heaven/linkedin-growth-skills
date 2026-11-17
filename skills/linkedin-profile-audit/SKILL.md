@@ -1,6 +1,6 @@
 ---
 name: linkedin-profile-audit
-description: "Audits and rewrites a personal LinkedIn profile for founders, consultants, creators, and operators so visitors become followers, leads, and clients. Scores 10 sections on a weighted rubric, names the single biggest leak, and rewrites the headline, About, Featured, current role, and banner. Use when someone asks to review, audit, score, fix, or rewrite their LinkedIn profile, headline, or About section. Not for job seekers, resumes, or ATS keywords."
+description: "Audits and rewrites a personal LinkedIn profile for founders, consultants, creators, and operators so visitors become followers, leads, and clients. Use for any request about a personal LinkedIn profile, including a single piece: review, audit, score, or fix my profile, or rewrite my headline, About section, Featured, or banner. Scores 10 sections on a weighted rubric, names the biggest leak, and writes 3 headline options and a full About in the user's voice without inventing results. Not for job seekers, resumes, or ATS keywords."
 license: MIT
 metadata:
   author: "9HEAVEN"
@@ -30,7 +30,8 @@ skill fits better.
 
 Before asking anything, follow `references/context-file.md`: load
 `linkedin-context.md` if it exists, ask only for what is missing, and save what you
-learn at the end.
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## Step 1: Get the profile
 

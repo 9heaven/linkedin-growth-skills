@@ -30,7 +30,8 @@ For a plan (pillars, cadence, a calendar), hand off to `linkedin-content-strateg
 
 Before asking anything, follow `references/context-file.md`: load
 `linkedin-context.md` if it exists, ask only for what is missing, and save what you
-learn at the end.
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## Write mode
 
@@ -43,10 +44,12 @@ for the rest in one message:
    the others as future posts.
 2. **The reader:** who it is for, by situation.
 3. **The specifics:** the real numbers, names, and moments. These make the post
-   theirs. If there are none, ask up to three questions that pull them out ("What
-   was the number before and after?", "What did the client say?", "What did you get
-   wrong first?"). If the user has none, write it as opinion or work in progress.
-   Never make them up.
+   theirs. If there are none, ask before drafting: up to three questions that pull
+   them out ("What was the number before and after?", "What did the client say?",
+   "What did you get wrong first?"). Draft without specifics only when the user
+   says they have none or tells you to go ahead. Then write it as their view ("what
+   I see in my work"), never as a measured fact about the world ("most churn is
+   decided in 30 days").
 4. **The job:** which pillar it serves (authority, proof, teaching, personal) or an
    offer post, and what the reader should do next. Often that is nothing more than
    think or reply.
@@ -65,10 +68,12 @@ screenshot, and a carousel when the material is a framework or checklist.
 - Body first, hook last. The hook must be true of the body.
 - One idea. Cut anything that serves a second one.
 - Specifics over adjectives. Every number and name comes from the user, or stays a
-  `[your number]` placeholder.
+  `[your number]` placeholder. That covers connecting details too: do not add a
+  plausible fact ("nobody had checked the invoices") the user did not state.
 - Paragraphs of 1–3 sentences, with varied length. No wall of one-liners.
 - End where the idea ends: a takeaway, a real question the user wants answered, or a
-  clear next step. Never "Agree?", "Thoughts?", or a request for likes.
+  clear next step. Never "Agree?", "Thoughts?", or a request for likes, saves, or
+  reposts.
 - Links and assets go in the first comment. Write that comment too.
 - Do not add hashtags or emoji unless the user's own posts use them.
 - Voice rules: `references/voice-rules.md`.
@@ -87,7 +92,8 @@ characters.
 4. One line listing any placeholder that still needs their number
 5. One line: be available for 20 minutes after posting to reply to every comment
 
-Nothing else. Do not explain why the post is good.
+Leave out any item that does not apply, and do not report on what you left out or
+did not do. Do not explain why the post is good.
 
 ## Review mode
 
@@ -108,8 +114,10 @@ hard fails.
 3. **Top fixes:** at most 3, ranked by impact, each quoting the line and giving the
    change
 4. **Edited version:** the smallest set of edits that clears the fixes. Keep their
-   phrasing. If the draft states a statistic about the world with no source, ask for
-   the source or cut the line. Their own results are theirs to state.
+   phrasing. Add no new facts, not even plausible ones: if a line needs a fact the
+   draft lacks, leave a placeholder or ask. If the draft states a statistic about
+   the world with no source, ask for the source or cut the line. Their own results
+   are theirs to state.
 5. Two alternative hooks, only if the Hook score is under 2
 
 If the verdict is Publish, say so and stop. Do not rewrite a post that works just to

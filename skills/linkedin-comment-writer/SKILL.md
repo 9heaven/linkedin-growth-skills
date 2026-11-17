@@ -32,7 +32,8 @@ the version that works: a 15-minute routine, post by post.
 
 Before asking anything, follow `references/context-file.md`: load
 `linkedin-context.md` if it exists, ask only for what is missing, and save what you
-learn at the end.
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## Comment mode
 
@@ -59,8 +60,10 @@ unless the user asked for one.
   restating the post.
 - Add what the post lacks: an example, a number, an exception, a consequence, or a
   question that moves it forward.
-- Only the user's real experience. If an option needs an example they have not
-  given, leave a `[your example]` placeholder.
+- Stay inside the user's take. Sharpen it, reorder it, or turn it into a question,
+  but do not add observations, causes, results, or fixes they did not give. If an
+  option needs one, leave a `[your example]` placeholder. Never write the claim and
+  ask them to check it.
 - No pitch, no link, no "DM me", no mention of the offer. The profile does that job.
 - Disagree with the idea, never the person. Grant what is right in a clause first.
 - No tagging people to pull them in, and no emoji strings.
@@ -98,7 +101,9 @@ Deliver one reply per comment, labeled with the commenter's first name as given.
 When the user asks for help with commenting in general:
 
 - 15 minutes a day, 5–10 posts, from a list of 15–25 accounts their buyers already
-  read. `linkedin-authority-growth` builds that list.
+  read. The user names the accounts. Suggest categories and ways to find them (who
+  comments on the user's posts, who their buyers follow), but never invent names or
+  handles. `linkedin-authority-growth` builds the list in full.
 - Comment early, ideally within the first 30 minutes of a post.
 - Comments count toward the daily action ceiling in
   `references/platform-reality.md`.

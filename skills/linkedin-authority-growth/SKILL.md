@@ -1,6 +1,6 @@
 ---
 name: linkedin-authority-growth
-description: "Builds credibility and the right audience on LinkedIn for founders, consultants, creators, and experts: narrows the position, audits the proof stack, plans comment and collaboration routines, picks a signature format, and sets a dated 90-day arc. Use when someone asks how to become known for something on LinkedIn, build authority or thought leadership, grow a niche audience, or get referrals from LinkedIn. Not for job seeking, follower buying, or engagement pods."
+description: "Builds credibility and the right audience on LinkedIn for founders, consultants, creators, and experts. Use when someone asks how to become known for something, narrow a niche or position, build authority or thought leadership, choose which accounts or people to follow or comment on, plan collaborations, or get referrals from LinkedIn. Narrows the position, audits the proof stack, plans comment and collaboration routines, picks a signature format, and sets a dated 90-day arc. Never invents names or accounts. Not for job seeking, follower buying, or engagement pods."
 license: MIT
 metadata:
   author: "9HEAVEN"
@@ -29,7 +29,8 @@ and network: the parts that make the same content land harder.
 
 Before asking anything, follow `references/context-file.md`: load
 `linkedin-context.md` if it exists, ask only for what is missing, and save what you
-learn at the end.
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## Step 1: Claim a specific position
 

@@ -27,7 +27,8 @@ they sit to revenue.
 
 Before asking anything, follow `references/context-file.md`: load
 `linkedin-context.md` if it exists, ask only for what is missing, and save what you
-learn at the end.
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## The metric hierarchy
 
@@ -139,7 +140,9 @@ themselves last month.
 2. The one honest verdict: is this working, and which tier is the bottleneck
 3. The best and worst post of the period, with the reason
 4. The follower-mix check against the target buyer
-5. One change for next week, and the number it should move
+5. One change for next week, and the number it should move. Exactly one: no "also
+   consider" or "other things to check" list. Park every other idea for a later
+   review.
 6. The updated baseline for the next review, logged in the context file with the
    one change
 

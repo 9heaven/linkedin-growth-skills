@@ -28,8 +28,8 @@ Whatever the score, the verdict cannot be Publish while any of these stands:
 
 - A number, client, or result the user did not supply, or a statistic about the world
   with no source.
-- Engagement bait: "Agree?", "comment YES", tag-a-friend, or any request for
-  reactions.
+- Engagement bait: "Agree?", "comment YES", "Save this", "Repost if you agree",
+  tag-a-friend, or any other request for reactions, saves, reposts, or follows.
 - A banned phrase or banned opening from `voice-rules.md`.
 
 Fix the hard fail in the edited version, or ask for what is missing.

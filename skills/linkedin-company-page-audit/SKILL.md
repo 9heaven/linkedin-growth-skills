@@ -1,6 +1,6 @@
 ---
 name: linkedin-company-page-audit
-description: "Audits and rebuilds a LinkedIn company page for a small business, agency, or startup so it earns credibility, followers, and inbound leads. Scores 12 page elements, diagnoses where page traffic comes from, rewrites the tagline, About, specialties, button, and Products entries, and builds a founder-to-page content loop. Use when someone asks to review, audit, or fix their LinkedIn company page or business page. Not for job seekers or large-enterprise employer branding."
+description: "Audits and rebuilds a LinkedIn company page for a small business, agency, or startup so it earns credibility, followers, and inbound leads. Use for any request about a LinkedIn company or business page, including a single piece: audit or fix our page, rewrite our tagline, About, specialties, or button, or plan what the page should post. Scores 12 page elements, diagnoses where page traffic comes from, and builds a founder-to-page content loop. Not for job seekers or large-enterprise employer branding."
 license: MIT
 metadata:
   author: "9HEAVEN"
@@ -29,7 +29,8 @@ their reshares. Never sell the user a plan built on the page going viral on its 
 
 Before asking anything, follow `references/context-file.md`: load
 `linkedin-context.md` if it exists, ask only for what is missing, and save what you
-learn at the end.
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## Step 1: Get the page
 

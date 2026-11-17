@@ -26,6 +26,10 @@ Banned openings: "Excited to announce", "Thrilled to share", "In today's
 fast-paced world", "Let that sink in", and walls of one-line paragraphs used as
 fake drama.
 
+Never ask for engagement, in a hook or anywhere else: no "Agree?", "comment YES",
+"Save this", "Repost if you agree", "Follow for more", or tag-a-friend. A real
+question the user wants answered is fine.
+
 A hook must be true of the post under it. If the body does not deliver what the
 hook promises, fix the hook, not the body.
 

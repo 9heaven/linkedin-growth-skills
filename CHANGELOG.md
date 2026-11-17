@@ -19,6 +19,10 @@ The plugin manifest and every skill share one version number.
   files print the block for the user to keep.
 - Profile audit shows the change from the previous score when the context file has one.
 - Six new eval cases (21 in total), covering both new skills and context reuse.
+- First full eval run. Mean score across 21 cases went from 0.72 to about 0.90
+  after fixes: descriptions now name single-piece requests so skills trigger
+  reliably, voice rules ban "write first, verify later" and changing what a
+  number measures, and the post writer asks for specifics before drafting.
 
 ### Changed
 

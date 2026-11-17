@@ -21,11 +21,14 @@ If you learned anything the file should hold (an answer to an intake question, a
 new score, a new baseline, a chosen position or pillar), update it:
 
 - **You can write files:** save `linkedin-context.md` in the working folder and
-  tell the user where it is.
-- **You cannot:** print the whole block and tell the user to keep it, then paste it
-  at the start of the next conversation or add it to their Project.
+  tell the user where it is, in one line.
+- **You cannot, after a full run:** print the whole block and tell the user to keep
+  it, then paste it at the start of the next conversation or add it to their Project.
+- **You cannot, after a quick single-piece answer:** offer the block in one line
+  instead of printing it.
 
-If nothing new was learned, leave the file alone and say nothing about it.
+If there is nothing to save, do not mention the context file at all. Never tell the
+user that you did not find one or did not save one.
 
 ## Rules
 

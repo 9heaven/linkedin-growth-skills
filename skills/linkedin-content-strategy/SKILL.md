@@ -31,7 +31,8 @@ this out loud when the user asks for follower tactics.
 
 Before asking anything, follow `references/context-file.md`: load
 `linkedin-context.md` if it exists, ask only for what is missing, and save what you
-learn at the end.
+learn at the end. If there is no file, just carry on: never open by telling the user
+that none was found.
 
 ## Step 1: Establish the foundation
 
@@ -142,14 +143,17 @@ Add the weekly operating rhythm:
 2. 3–4 pillars with 10 topic seeds each
 3. Cadence and the weekly rhythm
 4. 4-week calendar with every hook drafted
-5. 3 fully written posts they can publish this week, with `[placeholders]` wherever a
-   number or name is missing
+5. 3 fully written posts they can publish this week. Choose topics the material
+   they already gave can carry, with a `[placeholder]` only for the odd missing
+   number or name. A post that is mostly placeholders is a template, not a post: if
+   the material cannot carry three, write the ones it can and ask up to 3 questions
+   for the rest.
 6. What to track, with today's baseline
 7. The pillars and cadence saved to the context file
 
 ## Anti-patterns
 
-- Engagement bait ("Agree?", tag-a-friend, "comment YES"). LinkedIn reduces the
+- Engagement bait ("Agree?", tag-a-friend, "comment YES", "Save this"). LinkedIn reduces the
   reach of posts that ask for engagement to boost reach, and it teaches the
   algorithm the wrong audience.
 - Broad "value" content aimed at everyone. It grows followers who never convert,
