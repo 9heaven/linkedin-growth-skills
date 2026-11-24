@@ -3,6 +3,44 @@
 All notable changes to this project. Versions follow [Semantic Versioning](https://semver.org/).
 The plugin manifest and every skill share one version number.
 
+## [Unreleased]
+
+Found by running the profile audit on a live founder profile in the owner's own
+browser.
+
+### Added
+
+- Profile audit: an owner-session capture mode. When the user opens their own
+  profile in their own signed-in browser, the skill may read it there, including
+  the Analytics card, and no longer asks for numbers it can already see. A
+  logged-out check is still required for what strangers see.
+- Profile audit: a cross-section consistency check (banner, headline, About,
+  Services, current role) and an audience-signal check from "Who your viewers also
+  viewed" titles. Neither carries weight; both steer the rewrites.
+- Profile audit: `references/edit-paths.md`, so every do-this-week item says where
+  the edit lives.
+- Profile audit: one-line guidance for the Premium custom button, the education
+  line in the top card, and older Experience entries.
+- Eval case `profile-audit-mixed-positioning`.
+
+### Fixed
+
+- Profile audit: a hands-off live audit no longer stalls on the two intake
+  questions. The skill infers audience and action, marks them "assumed", and
+  confirms at the end.
+- Profile audit: the 40–59 band said to fix headline, About, and Featured first,
+  while the Activity rule said publishing comes first. The Activity rule now wins,
+  in both the skill and the rubric.
+- Rubric: the About anchors had no fit for a generic opener with no proof, and the
+  Featured anchors had no fit for a single item or a featured recommendation.
+- Rubric: reshares no longer reset the date of the last post, and a Completeness
+  item that cannot be confirmed drops out of the fraction.
+- Engagement rate is N/A when fewer than 3 original posts from the last 90 days
+  have numbers.
+- Capture guide: details paths added for Featured, Skills, Activity, and Contact
+  info. The lazy-loading note now says the mounted sections vary between loads, and
+  that the Skills details page lazy-loads too.
+
 ## [1.2.0] - 2026-11-05
 
 ### Fixed

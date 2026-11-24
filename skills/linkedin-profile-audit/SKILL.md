@@ -60,12 +60,23 @@ Numbers (from your Analytics)
 11. Followers and connections
 12. Posts in the last 30 days, and for your last 5 posts: impressions, reactions, comments, reposts
 13. Profile viewers and search appearances, with the period LinkedIn shows for each
+14. Optional: the job titles under "Who your viewers also viewed" on your profile (titles only, no names)
 ```
 
 **Optional live read:** if the user gives a public profile URL and asks you to fetch
 it, read the logged-out public view. That is exactly what a stranger sees, which is
-the point. Follow `references/capture-profile.md`. Never log in as the user, never
-read at scale, never touch someone else's profile without a legitimate reason.
+the point. If the user opens their own profile in their own signed-in browser and
+asks you to read it there, that is allowed too: it is the owner session in
+`references/capture-profile.md`, and it replaces items 11–14 of the paste. Follow
+`references/capture-profile.md` either way. Never log in as the user, never ask for
+credentials, never read at scale, never touch someone else's profile without a
+legitimate reason.
+
+**Hands-off audits:** when the user gives a URL and says "audit it" without
+answering the two questions, do not stall. Infer the audience and the action from
+the banner, the headline, and the About CTA. Write both in the report header marked
+"assumed", and ask the user to confirm them at the end. If those sections disagree
+with each other, use the most specific one and report the disagreement (Step 3).
 
 **Do not ask about "creator mode" or profile hashtags.** Both were retired in early
 2024 (`references/platform-reality.md`). Asking for a setting that no longer exists
@@ -133,6 +144,21 @@ Engagement rate = (reactions + comments + reposts) / impressions x 100
 very differently from "16 interactions". Compute it per post, report the median of
 the last 5, and grade it against the bands in `references/platform-reality.md`.
 
+If fewer than 3 original posts from the last 90 days have numbers, report the
+engagement rate as N/A and say why. Two posts from a year ago are not a rate.
+
+**Check consistency across sections.** Scores are per section, but a visitor reads
+the banner, headline, About, Services, and current role in one pass. Note the
+audience and the offer each one names. If they differ, say so in one line under the
+table ("the banner sells X to A, the headline says Y, Services lists Z") and use the
+sharpest version as the base for every rewrite. Do not average them. This check has
+no weight: it decides what the rewrites say.
+
+**Read the audience signal.** If you have the "Who your viewers also viewed" titles
+(paste item 14, or the owner session), compare them with the target audience. Mostly
+students, job seekers, or peers when the target is buyers means the profile and the
+feed attract the wrong people. Report it in one line. Never name those people.
+
 ## Step 4: Name the biggest leak
 
 Do not hand over nine parallel fixes. State one sentence:
@@ -151,7 +177,9 @@ The four leaks behind most weak founder profiles:
    arrives, so a rewrite changes nothing.
 
 If #4 is true, say it directly: the profile is not the bottleneck, publishing is.
-Hand off to `linkedin-content-strategy`.
+Hand off to `linkedin-content-strategy`. This overrides the band advice: a profile
+in the 40–59 band with Activity at 0–2 leads with publishing, and the headline,
+About, and Featured fixes come second.
 
 ## Step 5: Rewrite the weak sections
 
@@ -201,6 +229,11 @@ Rank by conversion value for the profile type:
 Each item needs a custom thumbnail and a title that reads as a benefit, not a
 filename.
 
+A single item, or only a featured recommendation, leaves the conversion slot empty.
+Keep the recommendation as slot 3 or 4, behind the primary-action item. If the user
+has no booking page, lead magnet, or case study yet, say which one to make first
+and leave a `[link]` placeholder. Do not invent one.
+
 ### Experience: current role
 
 Two or three lines on who the company serves and the outcome it delivers, then
@@ -215,19 +248,34 @@ Specify what to put in it, never just "improve it": offer, proof, and face or
 product, readable at phone width, with the bottom-left corner kept clear because the
 profile photo covers it.
 
+### Top card and older entries
+
+Three things sit outside the scored sections. Give one line each, only where it
+applies:
+
+- **Custom button (Premium):** the link under the name. Its label and target should
+  match the About CTA.
+- **Education line:** the top card shows one school. If it adds no credibility for
+  the target audience, the user can turn it off in the intro edit form.
+- **Older Experience entries:** roles unrelated to the positioning get cut to one
+  line each or removed. Do not rewrite them.
+
 ## Step 6: Deliver
 
 Output in this order, nothing else:
 
-1. **Header:** profile type, target audience, primary market, account size, and the
-   list of N/A sections
+1. **Header:** profile type, target audience and primary action (each marked
+   "assumed" if you inferred it), primary market, account size, and the list of N/A
+   sections
 2. **Score table** (section / weight / score / leak / fix), the weighted total and
    band, and the three sections losing the most points. Mark the score
-   "provisional" if N/A sections carry more than a third of the weight.
+   "provisional" if N/A sections carry more than a third of the weight. Under it,
+   the consistency and audience-signal lines from Step 3 where they apply.
 3. **The one biggest leak**, in one sentence
 4. **Rewrites:** 3 headlines, full About draft, Featured list, current-role rewrite,
    banner brief
-5. **Do-this-week list:** at most 5 items, ordered, each under 30 minutes
+5. **Do-this-week list:** at most 5 items, ordered, each under 30 minutes, each
+   saying where the edit lives (`references/edit-paths.md`)
 6. **Baseline to measure:** profile viewers, search appearances, and inbound DMs a
    week, written down from the paste (or "not provided")
 
@@ -239,6 +287,10 @@ Then offer the natural next step: `linkedin-content-strategy` if the feed is emp
 
 - Scoring every section 3/5 and calling it an audit. Be decisive: a 2 is a 2.
 - Scoring a section 0 because the paste left it out. Unknown is N/A.
+- Stalling a hands-off live audit on the two intake questions. Infer, mark as
+  assumed, confirm at the end.
+- Scoring each section alone and missing that the banner, headline, and Services
+  sell three different things.
 - Rewriting into polished corporate copy that erases the user's voice.
 - Recommending "post consistently" without a topic system. That belongs to
   `linkedin-content-strategy`, and vague advice is why profiles stay dead.

@@ -31,8 +31,8 @@ sees before "see more".
 | Score | Condition |
 |---|---|
 | 0–1 | Empty, a third-person bio, or a resume summary |
-| 2 | Opens with "I have N years of experience" |
-| 3 | Explains what they do, but buries it below line 5 |
+| 2 | Opens with "I have N years of experience", or with a slogan a competitor could paste unchanged, and gives no proof |
+| 3 | Explains what they do for a named audience, but buries it below line 5 or gives no proof |
 | 4 | Hook in lines 1–2, clear positioning, some proof |
 | 5 | Hook, agitate, positioning, real proof, who it is not for, and one CTA |
 
@@ -47,8 +47,11 @@ sees before "see more".
 | 4 | Weekly original posts, some comments |
 | 5 | 3 or more posts a week with real comment threads |
 
+Score original posts. Reshares without commentary do not reset the date of the
+last post: a feed of reshares that stopped 10 months ago is a 1, not a 2.
+
 Activity at 0–2 caps the value of every other fix. Say so, and hand off to
-`linkedin-content-strategy`.
+`linkedin-content-strategy`. This overrides the band advice at the end of this file.
 
 ## Featured (weight 4)
 
@@ -56,13 +59,15 @@ Activity at 0–2 caps the value of every other fix. Say so, and hand off to
 |---|---|
 | 0 | Section not set up |
 | 1 | Items that hurt: dead links, an old job, off-topic content |
-| 2 | Random posts, no thumbnails, no order |
+| 2 | Random posts, no thumbnails, no order; or a single item with the other slots empty |
 | 3 | Relevant items but no direct conversion path |
 | 4 | The primary-action item first, custom thumbnails, benefit-led titles |
 | 5 | All of that, plus a lead magnet and a case study, all 4 slots working |
 
 The primary-action item is the booking or offer link for founders, consultants, and
 operators, and the newsletter or lead magnet for creators.
+
+A featured recommendation is proof, not a conversion path. On its own it scores 2.
 
 ## Banner (weight 3)
 
@@ -108,6 +113,10 @@ as the primary button where inbound outpaces outbound. Score = 5 x the fraction
 done, rounded to a whole number. Do not score "creator mode" or profile hashtags:
 both were retired in early 2024.
 
+The primary button does not show on the owner's own view of the profile. Check the
+logged-out view or ask. An item you cannot confirm drops out of the fraction: four
+known items, all done, is 5.
+
 ## Computing the score
 
 ```
@@ -146,7 +155,7 @@ verdict leads with publishing, not copy.
 
 - **Under 40:** the profile is losing people. Full rewrite.
 - **40–59:** a functional resume, not a conversion asset. Fix headline, About, and
-  Featured, in that order.
+  Featured, in that order (unless Activity is 0–2: then publishing comes first).
 - **60–79:** a good asset. The bottleneck is traffic, not copy.
 - **80 and over:** do not touch the profile. Work on content and the offer.
 
